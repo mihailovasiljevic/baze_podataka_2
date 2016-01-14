@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Priključak nepokretnosti" directorySegmentName="seg_0" id="D84BA6EB-B9F5-6B79-29A5-EA6ACF7A8D86">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:53:58 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E62C25D6-9113-E8FA-2ED2-6846F784DA70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B97F3405-B16A-274A-32D6-BE1157B90E92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

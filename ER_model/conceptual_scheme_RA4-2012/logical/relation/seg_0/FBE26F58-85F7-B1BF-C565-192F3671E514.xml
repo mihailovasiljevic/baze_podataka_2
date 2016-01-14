@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Državljanstvo" directorySegmentName="seg_0" id="FBE26F58-85F7-B1BF-C565-192F3671E514">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:34:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>819336A0-4ED9-D8F6-0FE0-744484A402E1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DE4370D-E9A0-D1F7-4561-D4383812BCC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0605DF55-B9DD-3557-60A7-C1754455423F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

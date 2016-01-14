@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tip određuje nepokretnost" directorySegmentName="seg_0" id="27EC9B6A-1271-98D9-0579-A358454E6592">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:48:43 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>D49F94AF-0341-2923-258B-4516BBC40ABE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C6AA2BB-1122-A4F5-0F4E-AE9160CF1BD4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B97F3405-B16A-274A-32D6-BE1157B90E92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

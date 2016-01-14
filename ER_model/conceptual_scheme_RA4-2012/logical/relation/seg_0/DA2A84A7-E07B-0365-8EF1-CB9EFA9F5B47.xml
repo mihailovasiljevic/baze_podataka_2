@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ulica grada" directorySegmentName="seg_0" id="DA2A84A7-E07B-0365-8EF1-CB9EFA9F5B47">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:09:31 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>8E779822-1779-4FAB-30FB-262807C5D7F3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A4B147F-8A2B-A8BC-E062-17BE23865468</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1CE80584-6A26-B187-F671-F83A720FA5F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

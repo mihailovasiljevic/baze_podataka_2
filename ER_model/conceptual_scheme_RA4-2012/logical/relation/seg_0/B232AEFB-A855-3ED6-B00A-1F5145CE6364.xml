@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Grad države" directorySegmentName="seg_0" id="B232AEFB-A855-3ED6-B00A-1F5145CE6364">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:08:15 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>819336A0-4ED9-D8F6-0FE0-744484A402E1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DE4370D-E9A0-D1F7-4561-D4383812BCC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A4B147F-8A2B-A8BC-E062-17BE23865468</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF06AD86-D1FE-9D08-2E39-88A8B6B517B5" name="Prodavac">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:58:50 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROD_ID" id="0A87A8AE-3862-6F59-350B-7923BEF4FB71">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:58:55 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_IME" id="3451EE18-F7D1-D7FB-051D-73E94D7AD9C5">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:59:08 UTC</createdTime>
+<comment>Ime prodavca.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_PREZ" id="E9D03B67-5012-04D9-0748-D1C6857FDB1B">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:59:38 UTC</createdTime>
+<comment>Prezime prodavca.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_BRLK" id="F4B37208-872E-D96E-9769-CAFE5320CCF6">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:59:56 UTC</createdTime>
+<comment>Broj lične karte.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_TEL" id="F556E182-8B1D-A9F3-8ACE-E5AA28481FBD">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:00:30 UTC</createdTime>
+<comment>Broj telefona prodavca.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_EMAIL" id="0FF22DF1-130B-CD59-CEFF-4BF6D9D98D5B">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:01:09 UTC</createdTime>
+<comment>Email adresa prodavca.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_ANONIM" id="287343D9-F774-5F21-6119-06D488B6D85F">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:12:01 UTC</createdTime>
+<comment>Da li prodavac želi da bude anoniman?</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>FALSE</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F69B10CE-AC68-031A-3E38-195836C3390E" name="Prodavac PK">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:59:03 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A87A8AE-3862-6F59-350B-7923BEF4FB71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

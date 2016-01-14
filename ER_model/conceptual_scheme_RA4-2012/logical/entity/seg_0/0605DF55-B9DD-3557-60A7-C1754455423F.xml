@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0605DF55-B9DD-3557-60A7-C1754455423F" name="Agent">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:16:00 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AGENT_ID" id="2E8EE894-FCE2-9728-1F06-CC973CBA6C42">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:16:11 UTC</createdTime>
+<comment>Identifikator agenta.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AGENT_IME" id="6CE3B89F-C4D2-429D-8F61-665B2E30B048">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:16:46 UTC</createdTime>
+<comment>Ime agenta.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AGENT_PREZ" id="86954E50-0B40-3D21-E0EC-96619408D389">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:17:47 UTC</createdTime>
+<comment>Prezime agenta.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AGENT_TEL" id="D4441DD6-EAA7-B1B7-8958-F9E279910A57">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:18:07 UTC</createdTime>
+<comment>Telefon agenta.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STRUC_SPREM_ID" id="6A2488B2-E945-8D6D-57B3-88EF3509D80E">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:33:58 UTC</createdTime>
+<comment>Identifikator stručne spreme</comment>
+<generatorID>7D3AA709-DA38-0798-5B86-F02356A1ED68</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>CD457006-208A-F02E-1121-B0902EC1D16D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DRZ_ID" id="F18DF5FD-B1ED-8B22-AAFD-AD60333843BF">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:34:56 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>FBE26F58-85F7-B1BF-C565-192F3671E514</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>10A26566-5225-ECD0-0135-611744359E4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F29A008B-1757-64E0-A292-533AC404978F" name="Agent PK">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:16:45 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

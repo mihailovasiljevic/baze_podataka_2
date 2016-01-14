@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stručna sprema agenta" directorySegmentName="seg_0" id="7D3AA709-DA38-0798-5B86-F02356A1ED68">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 18:33:58 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>E6B3F5BA-1AB6-1179-8323-00C2DC9CD117</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DDF4F1C0-C114-5EE4-D62C-11B110ED19FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0605DF55-B9DD-3557-60A7-C1754455423F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

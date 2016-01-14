@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C6AA2BB-1122-A4F5-0F4E-AE9160CF1BD4" name="Tip nepokretnosti">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:45:33 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NEK_TIP_ID" id="F406F1A6-A683-5D02-94FA-0DF2A4901244">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:45:40 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NEK_TIP_NAZ" id="13EAE008-62C2-65E5-ECB7-9C666A40FDA2">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:46:05 UTC</createdTime>
+<comment>Naziv tipa nepokretnosti.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D49F94AF-0341-2923-258B-4516BBC40ABE" name="Tip nepokretnosti PK">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:45:54 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F406F1A6-A683-5D02-94FA-0DF2A4901244</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

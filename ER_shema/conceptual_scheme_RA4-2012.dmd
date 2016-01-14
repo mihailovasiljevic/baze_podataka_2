@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="conceptual_scheme_RA4-2012" id="71F55FA9-3193-AC20-7C50-2C2FE2D24101" version="3.5">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-12 22:07:22 UTC</createdTime>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>71F55FA9-3193-AC20-7C50-2C2FE2D24101</designId>
-</OSDM_Design>

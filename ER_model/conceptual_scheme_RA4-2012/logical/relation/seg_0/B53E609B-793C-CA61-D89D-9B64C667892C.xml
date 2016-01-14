@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Slika pomoćnog objekta" directorySegmentName="seg_0" id="B53E609B-793C-CA61-D89D-9B64C667892C">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-14 17:58:19 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>084EC1BC-3F73-8A35-5798-F5FC1906B269</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5AA7F8F-C735-A90A-0555-8E47B8F16678</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E999B657-D7D8-0E0D-CCED-823B416C9907</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

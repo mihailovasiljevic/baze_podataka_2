@@ -1,1 +1,0 @@
-This ER model is made in oracle data modeler. 
