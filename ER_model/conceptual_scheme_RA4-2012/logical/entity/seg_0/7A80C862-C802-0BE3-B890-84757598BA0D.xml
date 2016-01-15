@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A4B147F-8A2B-A8BC-E062-17BE23865468" name="Grad">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A80C862-C802-0BE3-B890-84757598BA0D" name="Poslovna godina">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:05:56 UTC</createdTime>
+<createdTime>2016-01-15 21:13:18 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="LOK_ID" id="9B9AD292-8F64-5174-3017-7280805833F7">
+<Attribute name="POSL_GOD_ID" id="C8F09AA2-6232-A98D-8F36-C77DDEECAE03">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:06:02 UTC</createdTime>
-<comment>Identifikator grada.</comment>
+<createdTime>2016-01-15 21:13:25 UTC</createdTime>
+<comment>Identifikator poslovne godine.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -28,48 +28,60 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOK_NAZ" id="593537D4-92B7-1975-0D04-D177CF6C14AF">
+<Attribute name="POSL_GOD_DAT_OD" id="CD576FFB-474F-93D6-6E7D-7D8820DC9A69">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:06:27 UTC</createdTime>
-<comment>Naziv grada.</comment>
+<createdTime>2016-01-15 21:13:43 UTC</createdTime>
+<comment>Datum početka važenja poslovne godine.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DRZ_ID" id="702D6C02-6191-D884-4796-507820F93B57">
+<Attribute name="POSL_GOD_DAT_DO" id="C0908952-7634-D268-0015-A96AA27B3FA4">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:08:15 UTC</createdTime>
-<comment>ISO kod države.</comment>
-<generatorID>B232AEFB-A855-3ED6-B00A-1F5145CE6364</generatorID>
+<createdTime>2016-01-15 21:14:10 UTC</createdTime>
+<comment>Datum završetka važenja poslovne godine.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<referedAttribute>10A26566-5225-ECD0-0135-611744359E4D</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSL_GOD_ZAKLJ" id="A3A6BD7B-BCCE-B800-281B-80994E2C7928">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:14:32 UTC</createdTime>
+<comment>Da li je poslovna godina zaključena?</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>FALSE</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8E779822-1779-4FAB-30FB-262807C5D7F3" name="Grad PK">
+<identifier id="71625A0C-7A0A-4D54-A41C-4E1498B25516" name="Poslovna godina PK">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:06:18 UTC</createdTime>
+<createdTime>2016-01-15 21:13:37 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9B9AD292-8F64-5174-3017-7280805833F7</attributeRef>
-<attributeRef>702D6C02-6191-D884-4796-507820F93B57</attributeRef>
+<attributeRef>C8F09AA2-6232-A98D-8F36-C77DDEECAE03</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

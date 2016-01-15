@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Poslovna godina ulazi  u" directorySegmentName="seg_0" id="8409E316-46DD-96C6-E192-63018B9945C5">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:34:53 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>71625A0C-7A0A-4D54-A41C-4E1498B25516</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A80C862-C802-0BE3-B890-84757598BA0D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE792BAF-E2D7-8829-3A4F-4D98600EB114</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

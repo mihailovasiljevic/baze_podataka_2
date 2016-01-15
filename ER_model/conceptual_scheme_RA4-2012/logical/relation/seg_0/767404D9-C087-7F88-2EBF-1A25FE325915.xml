@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pripada katalogu" directorySegmentName="seg_0" id="767404D9-C087-7F88-2EBF-1A25FE325915">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:25:13 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>B82CE991-46F2-97BF-5714-9D6626A02A70</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2336EB5C-8563-905A-2DF6-229BC1CF757B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4488BF75-6DC5-6F96-341B-91F122BFD138</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

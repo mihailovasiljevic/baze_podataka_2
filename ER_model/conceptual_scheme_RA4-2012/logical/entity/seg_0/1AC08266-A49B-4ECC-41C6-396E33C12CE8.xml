@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0605DF55-B9DD-3557-60A7-C1754455423F" name="Agent">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AC08266-A49B-4ECC-41C6-396E33C12CE8" name="Cenovnik">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:00 UTC</createdTime>
+<createdTime>2016-01-15 21:39:20 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="AGENT_ID" id="2E8EE894-FCE2-9728-1F06-CC973CBA6C42">
+<Attribute name="CEN_ID" id="F31497E6-7CB2-53B3-4134-4CF9A8ECDA6A">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:11 UTC</createdTime>
-<comment>Identifikator agenta.</comment>
+<createdTime>2016-01-15 21:39:40 UTC</createdTime>
+<comment>Identifikator cenovnika.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -28,91 +28,77 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AGENT_IME" id="6CE3B89F-C4D2-429D-8F61-665B2E30B048">
+<Attribute name="CEN_DAT_OD" id="BD3DB7FE-4CF6-9393-A5A7-FEFF44C0CF59">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:46 UTC</createdTime>
-<comment>Ime agenta.</comment>
+<createdTime>2016-01-15 21:40:05 UTC</createdTime>
+<comment>Datum uspostavljanja cenovnika.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AGENT_PREZ" id="86954E50-0B40-3D21-E0EC-96619408D389">
+<Attribute name="CEN_DAT_DO" id="1A4DEEED-683C-8C83-BA82-87F5EACAF200">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:17:47 UTC</createdTime>
-<comment>Prezime agenta.</comment>
+<createdTime>2016-01-15 21:40:22 UTC</createdTime>
+<comment>Datum prestanka važenja cenovnika.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AGENT_TEL" id="D4441DD6-EAA7-B1B7-8958-F9E279910A57">
+<Attribute name="OPS_USL_POSL" id="646C6CAA-23B3-A39C-9783-5BD1E82FD0BA">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:18:07 UTC</createdTime>
-<comment>Telefon agenta.</comment>
+<createdTime>2016-01-15 21:40:51 UTC</createdTime>
+<comment>Identifikator opštih uslova poslovanja.</comment>
+<generatorID>5E4A5A64-D14F-D4E0-CEEC-738781F2A53E</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
+<referedAttribute>3E864BDC-E992-5F0D-B5C5-437D5A75A3C4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STRUC_SPREM_ID" id="6A2488B2-E945-8D6D-57B3-88EF3509D80E">
+<Attribute name="POSL_GOD_ID" id="51997AAB-CF9B-8267-540C-69100DED438A">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:33:58 UTC</createdTime>
-<comment>Identifikator stručne spreme</comment>
-<generatorID>7D3AA709-DA38-0798-5B86-F02356A1ED68</generatorID>
+<createdTime>2016-01-15 21:40:51 UTC</createdTime>
+<comment>Identifikator poslovne godine.</comment>
+<generatorID>5E4A5A64-D14F-D4E0-CEEC-738781F2A53E</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<referedAttribute>CD457006-208A-F02E-1121-B0902EC1D16D</referedAttribute>
+<referedAttribute>2DDD0E3F-BF5E-85AE-328D-80DD36238CD4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DRZ_ID" id="F18DF5FD-B1ED-8B22-AAFD-AD60333843BF">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:34:56 UTC</createdTime>
-<comment>ISO kod države.</comment>
-<generatorID>FBE26F58-85F7-B1BF-C565-192F3671E514</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>10A26566-5225-ECD0-0135-611744359E4D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F29A008B-1757-64E0-A292-533AC404978F" name="Agent PK">
+<identifier id="1DBD0624-0241-A8F3-B5BD-28B26C6DA8F7" name="Cenovnik PK">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:45 UTC</createdTime>
+<createdTime>2016-01-15 21:40:51 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</attributeRef>
+<attributeRef>646C6CAA-23B3-A39C-9783-5BD1E82FD0BA</attributeRef>
+<attributeRef>51997AAB-CF9B-8267-540C-69100DED438A</attributeRef>
+<attributeRef>F31497E6-7CB2-53B3-4134-4CF9A8ECDA6A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

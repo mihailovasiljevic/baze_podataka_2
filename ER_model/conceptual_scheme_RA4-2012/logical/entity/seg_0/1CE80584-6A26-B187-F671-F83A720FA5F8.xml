@@ -70,7 +70,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID" id="2FB019DE-8E46-220A-D49C-8BC56EADD1CB">
 <createdBy>authorit0</createdBy>

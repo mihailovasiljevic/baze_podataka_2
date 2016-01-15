@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cenovnik pripada opštim uslovima poslovanja." directorySegmentName="seg_0" id="5E4A5A64-D14F-D4E0-CEEC-738781F2A53E">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:40:51 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>4A3807F9-24E6-6D52-DF72-1C076C5B9BE3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE792BAF-E2D7-8829-3A4F-4D98600EB114</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AC08266-A49B-4ECC-41C6-396E33C12CE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

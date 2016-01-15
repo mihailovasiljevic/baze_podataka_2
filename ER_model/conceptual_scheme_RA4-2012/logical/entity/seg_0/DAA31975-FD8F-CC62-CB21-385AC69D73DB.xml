@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAA31975-FD8F-CC62-CB21-385AC69D73DB" name="Posao">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:35:08 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="POSAO_ID" id="0869F104-3EF2-094E-B3CA-04DA5BD05DEF">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:35:25 UTC</createdTime>
+<comment>Identifikator posla koji agencija obavlja.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSAO_NAZ" id="AC07BB51-3A2C-424D-2028-DAB52B127724">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:35:41 UTC</createdTime>
+<comment>Naziv posla koji agencija obavlja.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPS_USL_POSL" id="DBA218D0-5488-76A9-F622-3BA6476B3711">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:41:34 UTC</createdTime>
+<comment>Identifikator opštih uslova poslovanja.</comment>
+<generatorID>5F7617A6-690A-F6CC-FE06-7E364B6AFB57</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>3E864BDC-E992-5F0D-B5C5-437D5A75A3C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSL_GOD_ID" id="CA5BDF64-11D9-7DB1-E714-AB8C91596E77">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:41:34 UTC</createdTime>
+<comment>Identifikator poslovne godine.</comment>
+<generatorID>5F7617A6-690A-F6CC-FE06-7E364B6AFB57</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>2DDD0E3F-BF5E-85AE-328D-80DD36238CD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECCB46FA-5212-8A23-D217-DCF5884D4B25" name="Posao PK">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:35:33 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0869F104-3EF2-094E-B3CA-04DA5BD05DEF</attributeRef>
+<attributeRef>DBA218D0-5488-76A9-F622-3BA6476B3711</attributeRef>
+<attributeRef>CA5BDF64-11D9-7DB1-E714-AB8C91596E77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

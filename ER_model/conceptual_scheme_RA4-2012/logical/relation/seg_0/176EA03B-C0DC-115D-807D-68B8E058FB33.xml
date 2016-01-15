@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Opšti uslovi poslovanja ulaze u " directorySegmentName="seg_0" id="176EA03B-C0DC-115D-807D-68B8E058FB33">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:34:37 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>71DA76D4-2BBE-4B8B-4823-90BAE0D7B9C7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14F95044-B235-0641-EF35-D27CDEBC6518</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE792BAF-E2D7-8829-3A4F-4D98600EB114</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

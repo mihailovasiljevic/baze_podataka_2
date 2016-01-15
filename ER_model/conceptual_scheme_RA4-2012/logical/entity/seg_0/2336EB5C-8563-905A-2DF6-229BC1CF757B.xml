@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0605DF55-B9DD-3557-60A7-C1754455423F" name="Agent">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2336EB5C-8563-905A-2DF6-229BC1CF757B" name="Katalog nepokretnosti u poslovnoj godini">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:00 UTC</createdTime>
+<createdTime>2016-01-15 21:20:06 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -15,104 +15,106 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="AGENT_ID" id="2E8EE894-FCE2-9728-1F06-CC973CBA6C42">
+<Attribute name="POSL_GOD_ID" id="C45A6584-7D1D-EC71-474A-0C56A174B8F5">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:11 UTC</createdTime>
-<comment>Identifikator agenta.</comment>
+<createdTime>2016-01-15 21:20:33 UTC</createdTime>
+<comment>Identifikator poslovne godine.</comment>
+<generatorID>473F776B-7D3E-F7F1-A54A-B8B44F8B0A65</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
+<referedAttribute>C8F09AA2-6232-A98D-8F36-C77DDEECAE03</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AGENT_IME" id="6CE3B89F-C4D2-429D-8F61-665B2E30B048">
+<Attribute name="KAT_NEK_ID" id="D665563B-E850-12F8-2EF6-36A1959C2446">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:46 UTC</createdTime>
-<comment>Ime agenta.</comment>
+<createdTime>2016-01-15 21:20:59 UTC</createdTime>
+<comment>Identifikator kataloga nepokretnosti.</comment>
+<generatorID>6958CBFB-FCC8-071B-5203-8295C61179DC</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="AGENT_PREZ" id="86954E50-0B40-3D21-E0EC-96619408D389">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:17:47 UTC</createdTime>
-<comment>Prezime agenta.</comment>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="AGENT_TEL" id="D4441DD6-EAA7-B1B7-8958-F9E279910A57">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:18:07 UTC</createdTime>
-<comment>Telefon agenta.</comment>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
+<referedAttribute>12036B2A-C87C-5F61-5E95-1564EF648066</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STRUC_SPREM_ID" id="6A2488B2-E945-8D6D-57B3-88EF3509D80E">
+<Attribute name="KAT_NET_POSL_OD" id="DD809B26-A8ED-0473-0DBA-5EB80085FFC4">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:33:58 UTC</createdTime>
-<comment>Identifikator stručne spreme</comment>
-<generatorID>7D3AA709-DA38-0798-5B86-F02356A1ED68</generatorID>
+<createdTime>2016-01-15 21:31:14 UTC</createdTime>
+<comment>Datum početka važenja kataloga nepokretnosti.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<referedAttribute>CD457006-208A-F02E-1121-B0902EC1D16D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DRZ_ID" id="F18DF5FD-B1ED-8B22-AAFD-AD60333843BF">
+<Attribute name="KAT_NEK_POS_DO" id="70C3E529-1F86-B329-B1EF-478B6BF1CC0E">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:34:56 UTC</createdTime>
-<comment>ISO kod države.</comment>
-<generatorID>FBE26F58-85F7-B1BF-C565-192F3671E514</generatorID>
+<createdTime>2016-01-15 21:31:36 UTC</createdTime>
+<comment>Datum do kog važi katalog nepokretnosti.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<referedAttribute>10A26566-5225-ECD0-0135-611744359E4D</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSL_GOD_ID1" id="1188C719-6E76-DE9F-C987-587D324B54CB">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:51:00 UTC</createdTime>
+<comment>Identifikator poslovne godine.</comment>
+<generatorID>C56BD58C-53E7-BB10-074D-F34F10811DA7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>89B55221-3BB8-2DD5-D84C-FCBA59F12AAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVID_POS_ID" id="6A89CE67-97B0-19DA-310D-E646FDEDFD3C">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:51:00 UTC</createdTime>
+<comment>Identifikator evidencije o posredovanju.</comment>
+<generatorID>C56BD58C-53E7-BB10-074D-F34F10811DA7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>F93A975B-5E9E-83AA-3A7C-6814C0F9AD5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F29A008B-1757-64E0-A292-533AC404978F" name="Agent PK">
+<identifier id="B82CE991-46F2-97BF-5714-9D6626A02A70" name="Katalog nepokretnosti u poslovnoj godini PK">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:16:45 UTC</createdTime>
+<createdTime>2016-01-15 21:20:33 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</attributeRef>
+<attributeRef>C45A6584-7D1D-EC71-474A-0C56A174B8F5</attributeRef>
+<attributeRef>D665563B-E850-12F8-2EF6-36A1959C2446</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

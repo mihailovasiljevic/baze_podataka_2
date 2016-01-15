@@ -267,20 +267,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KUP_ID" id="04FADDAD-6B8C-0922-D4EC-BC1726D7AAE9">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:04:41 UTC</createdTime>
-<generatorID>F687104E-5536-5A36-3C13-3FCD603FECAD</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A05469B5-50C6-24F9-5686-EE1D28B2E724" name="Nepokretnost PK">

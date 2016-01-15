@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evidencija vodi računa o kupcu" directorySegmentName="seg_0" id="D6718020-A62D-4BB7-4F4F-2F7CF139D8B7">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-15 21:49:42 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<sourcePk>988DEB27-B805-93E2-DD84-081602C96555</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C245359-1880-0CF9-6861-9E84D304AE10</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F60BB87-70BE-A06F-ADC1-9CD588BD1493</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

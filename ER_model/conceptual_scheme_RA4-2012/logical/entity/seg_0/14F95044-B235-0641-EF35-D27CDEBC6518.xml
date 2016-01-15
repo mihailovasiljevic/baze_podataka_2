@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A4B147F-8A2B-A8BC-E062-17BE23865468" name="Grad">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14F95044-B235-0641-EF35-D27CDEBC6518" name="Opšti uslovi poslovanja">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:05:56 UTC</createdTime>
+<createdTime>2016-01-15 21:26:15 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="LOK_ID" id="9B9AD292-8F64-5174-3017-7280805833F7">
+<Attribute name="OPS_USL_POSL" id="EF1CA3FB-3D73-B446-4ABC-2ED09EF97901">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:06:02 UTC</createdTime>
-<comment>Identifikator grada.</comment>
+<createdTime>2016-01-15 21:29:30 UTC</createdTime>
+<comment>Identifikator opštih uslova poslovanja.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -28,48 +28,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOK_NAZ" id="593537D4-92B7-1975-0D04-D177CF6C14AF">
+<Attribute name="OPS_USL_NAP" id="F2ED52FD-8161-53DB-1A56-282BAD193BEB">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:06:27 UTC</createdTime>
-<comment>Naziv grada.</comment>
+<createdTime>2016-01-15 21:33:59 UTC</createdTime>
+<comment>Napomena opštih uslova poslovanja.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DRZ_ID" id="702D6C02-6191-D884-4796-507820F93B57">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:08:15 UTC</createdTime>
-<comment>ISO kod države.</comment>
-<generatorID>B232AEFB-A855-3ED6-B00A-1F5145CE6364</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>10A26566-5225-ECD0-0135-611744359E4D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8E779822-1779-4FAB-30FB-262807C5D7F3" name="Grad PK">
+<identifier id="71DA76D4-2BBE-4B8B-4823-90BAE0D7B9C7" name="Opšti uslovi poslovanja PK">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:06:18 UTC</createdTime>
+<createdTime>2016-01-15 21:29:52 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9B9AD292-8F64-5174-3017-7280805833F7</attributeRef>
-<attributeRef>702D6C02-6191-D884-4796-507820F93B57</attributeRef>
+<attributeRef>EF1CA3FB-3D73-B446-4ABC-2ED09EF97901</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
