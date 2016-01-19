@@ -101,66 +101,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EVID_POS_ID" id="C51BA6C0-BA20-1334-A52C-61FF64B38194">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-19 12:36:00 UTC</createdTime>
-<comment>Identifikator evidencije o posredovanju.</comment>
-<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>5159C810-F118-CBC5-5960-E9DE422BFD15</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="POSR_ID" id="4EA3E8D0-8710-9819-6544-2ABD4D07CD04">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-19 12:43:43 UTC</createdTime>
-<comment>Identifikator ugovora o posredovanju</comment>
-<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>239289BC-D9AB-F797-739E-60821E98419A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PROD_ID" id="3FC61C8F-7FAA-450A-E438-149E5E75EA8B">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-19 12:43:43 UTC</createdTime>
-<comment>Identifikator prodavca.</comment>
-<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>75845451-E9F8-D585-B7C5-1F12A31A6D99</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="AGENT_ID" id="78B7C213-3CC9-C886-595E-D08AA4F516A3">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-19 12:43:43 UTC</createdTime>
-<comment>Identifikator agenta.</comment>
-<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>8C2781FD-4C92-964D-432D-FF378B5E6B91</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BDD8591A-0723-CC0C-474C-9CD89F38EDD5" name="Nepokretnost iz kataloga PK">

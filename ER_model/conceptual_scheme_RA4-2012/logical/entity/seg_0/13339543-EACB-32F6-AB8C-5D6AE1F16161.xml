@@ -115,6 +115,51 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NEK_ID" id="2D725E40-92B4-3CA5-289B-85E03E381A1E">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 13:03:55 UTC</createdTime>
+<comment>Identifikator nepokretnosti.</comment>
+<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>DD0E1954-29AD-0CED-D3E1-7CE94AAC4AD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NEK_TIP_ID" id="10B0E861-B779-80DE-8A92-3317F0F105AD">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 13:03:55 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>B6A8D7F1-68B7-9314-1DBB-DDE286C792B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KAT_NEK_ID" id="EF9A9E8E-7FDD-510E-32E3-6195969D82D2">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 13:03:55 UTC</createdTime>
+<comment>Identifikator kataloga nepokretnosti.</comment>
+<generatorID>A346EBF5-5C6B-9164-6F5D-B00032F6D22B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>E071885F-9B6D-643D-7796-0E495F00A0E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9925C3C8-0154-2C99-71C3-46B0CEA4A258" name="Evidencija o posredovanju PK">
