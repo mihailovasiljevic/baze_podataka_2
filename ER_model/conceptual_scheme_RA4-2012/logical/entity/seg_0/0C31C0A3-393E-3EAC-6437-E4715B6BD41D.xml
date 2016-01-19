@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C31C0A3-393E-3EAC-6437-E4715B6BD41D" name="Ugovor o posredovanju">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:18:53 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="POSR_SVRHA" id="DA41345D-8278-B732-076F-33456CD010EC">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:21:07 UTC</createdTime>
+<comment>Svrha ugovora.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_DAT_SKL" id="880E936E-8699-F779-03BA-C4B4BC218ED9">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:20:11 UTC</createdTime>
+<comment>Datum sklapanja ugovora.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_ROK" id="3C2875B5-DDDD-A12D-E03A-E2C33F29D8F5">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:21:54 UTC</createdTime>
+<comment>Rok isplate.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_DAT_IST" id="DF540DCA-FB20-E42D-6331-7BF60C3243DA">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:20:40 UTC</createdTime>
+<comment>Datum isticanja ugovora.(Ugovor važi najviše godinu dana.)</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_ID" id="CBBD5FF0-77AC-62F3-587D-70D47DDDD869">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:19:12 UTC</createdTime>
+<comment>Identifikator ugovora o posredovanju</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_TROSK" id="2167A8F5-EC92-FB17-6C77-8B8190A65365">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:19:41 UTC</createdTime>
+<comment>Visina troškova.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,12,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_OTK_ROK" id="9BC12968-C84E-3C66-975F-C8BC9C12B519">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:25:16 UTC</createdTime>
+<comment>Otkazni rok. Datum do kog se ugovor može otkazati.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_NAZ_SUDA" id="AB0AACB5-12C0-7EC7-6251-F50DCEC5A320">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:25:57 UTC</createdTime>
+<comment>Naziv nadležnnog suda.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_TEL_SUDA" id="7BE09668-AE88-76A3-5A53-270B0C2E8F67">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:26:23 UTC</createdTime>
+<comment>Telefon nadležnog suda.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_BRPR" id="01058393-F654-F6D8-8CE9-E90437275F89">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:26:58 UTC</createdTime>
+<comment>Broj primeraka ugovora.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_BRPOSTR" id="18777A5B-2006-66C4-4B50-F9FAB5C9BA8F">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:27:17 UTC</createdTime>
+<comment>Broj primeraka po potpisnim stranama.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSR_POTP" id="24A0801F-E09D-0AE4-26B0-2FE11816A236">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:27:48 UTC</createdTime>
+<comment>Da li je ugovor potpisan?</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>FALSE</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ULICA_ID" id="A2C1DEA9-249B-14E9-25A2-2906C2EE27D7">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:30:24 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>01989D4D-DF3F-9651-886A-E294CE6C637E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOK_ID" id="A797AC7C-FF03-746B-4248-D3F83899291B">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:30:24 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DRZ_ID" id="1FA7E4C4-81DC-5821-4197-8551272A2C71">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:30:24 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>C5562177-B971-FF2A-99AB-52ED61744A6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AGENT_ID" id="AB96C793-0502-2A3D-B1B1-FB535E3FF937">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:30:49 UTC</createdTime>
+<comment>Identifikator agenta.</comment>
+<generatorID>44E3052E-B0A3-F783-FE5D-1141B54515B2</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_ID" id="ECAC225F-6541-0497-EC92-E43917A7C627">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:32:10 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<generatorID>6BA7EDE5-C595-14B0-3444-56392CE2BFA9</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<referedAttribute>0A87A8AE-3862-6F59-350B-7923BEF4FB71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79D36E14-5ABC-0474-E33B-1CF3A94BBABF" name="Ugovor o posredovanju PK">
+<createdBy>authorit0</createdBy>
+<createdTime>2016-01-19 12:19:34 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBBD5FF0-77AC-62F3-587D-70D47DDDD869</attributeRef>
+<attributeRef>ECAC225F-6541-0497-EC92-E43917A7C627</attributeRef>
+<attributeRef>AB96C793-0502-2A3D-B1B1-FB535E3FF937</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

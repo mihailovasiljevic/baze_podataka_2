@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evidencija ima ishod" directorySegmentName="seg_0" id="787C95B0-7960-D366-2AE6-1211A6319ADE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Katalog nepokretnosti u vezi" directorySegmentName="seg_0" id="E97023C2-E0D1-BBFE-0F75-F0304B638F59">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-15 21:49:13 UTC</createdTime>
+<createdTime>2016-01-19 12:12:13 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<sourcePk>988DEB27-B805-93E2-DD84-081602C96555</sourcePk>
-<identifying>false</identifying>
+<sourcePk>B509ABD1-B860-63B8-31FC-7CB693E25B5B</sourcePk>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>6C245359-1880-0CF9-6861-9E84D304AE10</sourceEntity>
+<sourceEntity>F5D708B0-8802-7874-BC07-A90A406FB936</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>6A899C76-39E0-7BA1-7B26-7BCFDE440853</targetEntity>
+<targetEntity>4488BF75-6DC5-6F96-341B-91F122BFD138</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

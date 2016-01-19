@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A899C76-39E0-7BA1-7B26-7BCFDE440853" name="Ishod posredovanja">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-15 21:47:40 UTC</createdTime>
+<comment>Da li je nekretnina prodata, ili je ugovor otkazan itd.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
@@ -41,36 +42,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>64 CHAR</dataTypeSize>
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="POSL_GOD_ID" id="967ABB0B-913E-1AD5-F21C-631214F5C411">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-15 21:49:13 UTC</createdTime>
-<comment>Identifikator poslovne godine.</comment>
-<generatorID>787C95B0-7960-D366-2AE6-1211A6319ADE</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>89B55221-3BB8-2DD5-D84C-FCBA59F12AAB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EVID_POS_ID" id="753E3767-F6D4-2A82-4819-D4533A3A96D3">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-15 21:49:13 UTC</createdTime>
-<comment>Identifikator evidencije o posredovanju.</comment>
-<generatorID>787C95B0-7960-D366-2AE6-1211A6319ADE</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>F93A975B-5E9E-83AA-3A7C-6814C0F9AD5F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

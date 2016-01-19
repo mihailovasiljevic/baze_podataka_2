@@ -91,36 +91,6 @@
 <dataTypeSize>128 CHAR</dataTypeSize>
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="POSL_GOD_ID" id="F6952F50-FD2B-A68D-21D8-B7174A8AB85B">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-15 21:49:42 UTC</createdTime>
-<comment>Identifikator poslovne godine.</comment>
-<generatorID>D6718020-A62D-4BB7-4F4F-2F7CF139D8B7</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>89B55221-3BB8-2DD5-D84C-FCBA59F12AAB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EVID_POS_ID" id="494BD242-59D4-B8C3-655F-FD7CB240680A">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-15 21:49:42 UTC</createdTime>
-<comment>Identifikator evidencije o posredovanju.</comment>
-<generatorID>D6718020-A62D-4BB7-4F4F-2F7CF139D8B7</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
-<referedAttribute>F93A975B-5E9E-83AA-3A7C-6814C0F9AD5F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D2C92BE3-0F53-2F60-DB90-A80BBC910B17" name="Kupac PK">

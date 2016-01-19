@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Posrednička naknada koja pripada opštim uslovima poslovanja" directorySegmentName="seg_0" id="7BD2846B-2E6D-90B3-CFA7-DF81C528196D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Agent potpisuje ugovor u ime agencije" directorySegmentName="seg_0" id="44E3052E-B0A3-F783-FE5D-1141B54515B2">
 <createdBy>authorit0</createdBy>
-<createdTime>2016-01-15 21:38:27 UTC</createdTime>
+<createdTime>2016-01-19 12:30:49 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
 </engineerTo>
-<sourcePk>4A3807F9-24E6-6D52-DF72-1C076C5B9BE3</sourcePk>
+<sourcePk>F29A008B-1757-64E0-A292-533AC404978F</sourcePk>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>CE792BAF-E2D7-8829-3A4F-4D98600EB114</sourceEntity>
+<sourceEntity>0605DF55-B9DD-3557-60A7-C1754455423F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>41DDC8CE-DD19-512F-8F07-7C5FFB361491</targetEntity>
+<targetEntity>0C31C0A3-393E-3EAC-6437-E4715B6BD41D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
