@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="153CCA31-2786-F8E1-AFC5-36814C02C5B0" name="Adresa">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:26:17 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ADRS_ID" id="12444A2C-BE61-8363-166F-78B80D701241">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:26:24 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADRS_ULBR" id="2B828A9D-F7EF-7C81-B90C-F8A2B7929879">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:26:40 UTC</createdTime>
+<comment>Broj u ulici.</comment>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ULICA_ID" id="D7AD5A32-0D12-5A13-2C4B-2216E168008C">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:18 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>01989D4D-DF3F-9651-886A-E294CE6C637E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOK_ID" id="F584B9F7-B09E-5D06-C2F7-3D93B209DADE">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:18 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DRZ_ID" id="46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:18 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>C5562177-B971-FF2A-99AB-52ED61744A6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NEK_ID" id="7EA36AB6-1458-68D1-BCC1-AD5EFB2F3DEE">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:32 UTC</createdTime>
+<comment>Identifikator nepokretnosti.</comment>
+<generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NEK_TIP_ID" id="CFCE57E0-CC2F-6D3B-50F7-6F6FFE8C3AF5">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:32 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_ID" id="58CB5382-6FCE-C85C-EE1B-7908D5CA1801">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:36 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<generatorID>CF9B8FAC-DFDC-1BAB-8EB6-0296AE8DB6D0</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>0A87A8AE-3862-6F59-350B-7923BEF4FB71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KUP_ID" id="8793EFA5-1D2C-4CF4-C9B4-6C7F1C1F59E1">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:41 UTC</createdTime>
+<generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ULICA_ID1" id="636F4F82-B7A8-7DAA-B54B-6C701D4A1B28">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:47 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>01989D4D-DF3F-9651-886A-E294CE6C637E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOK_ID1" id="10E5CCA6-3C35-4A7B-CD3F-1AFB9ACAAFA4">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:47 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DRZ_ID1" id="6EAB625B-FC20-F26A-0AF9-D38DAA9F7B08">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:27:47 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>C5562177-B971-FF2A-99AB-52ED61744A6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1753C06-6454-1CBB-21C3-4C9FC3A6B9F5" name="Adresa PK">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 23:26:31 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12444A2C-BE61-8363-166F-78B80D701241</attributeRef>
+<attributeRef>D7AD5A32-0D12-5A13-2C4B-2216E168008C</attributeRef>
+<attributeRef>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</attributeRef>
+<attributeRef>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

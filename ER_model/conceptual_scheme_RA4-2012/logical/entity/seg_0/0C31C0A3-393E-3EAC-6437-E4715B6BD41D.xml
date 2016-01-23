@@ -3,9 +3,6 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:18:53 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdTime>2016-01-19 12:21:07 UTC</createdTime>
 <comment>Svrha ugovora.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,9 +29,6 @@
 <createdTime>2016-01-19 12:20:11 UTC</createdTime>
 <comment>Datum sklapanja ugovora.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -48,9 +39,6 @@
 <createdTime>2016-01-19 12:21:54 UTC</createdTime>
 <comment>Rok isplate.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -61,9 +49,6 @@
 <createdTime>2016-01-19 12:20:40 UTC</createdTime>
 <comment>Datum isticanja ugovora.(Ugovor važi najviše godinu dana.)</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -74,9 +59,6 @@
 <createdTime>2016-01-19 12:19:12 UTC</createdTime>
 <comment>Identifikator ugovora o posredovanju</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -87,9 +69,6 @@
 <createdTime>2016-01-19 12:19:41 UTC</createdTime>
 <comment>Visina troškova.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -102,9 +81,6 @@
 <createdTime>2016-01-19 12:25:16 UTC</createdTime>
 <comment>Otkazni rok. Datum do kog se ugovor može otkazati.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -115,9 +91,6 @@
 <createdTime>2016-01-19 12:25:57 UTC</createdTime>
 <comment>Naziv nadležnnog suda.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -129,9 +102,6 @@
 <createdTime>2016-01-19 12:26:23 UTC</createdTime>
 <comment>Telefon nadležnog suda.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -143,9 +113,6 @@
 <createdTime>2016-01-19 12:26:58 UTC</createdTime>
 <comment>Broj primeraka ugovora.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -156,9 +123,6 @@
 <createdTime>2016-01-19 12:27:17 UTC</createdTime>
 <comment>Broj primeraka po potpisnim stranama.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -169,9 +133,6 @@
 <createdTime>2016-01-19 12:27:48 UTC</createdTime>
 <comment>Da li je ugovor potpisan?</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -185,9 +146,6 @@
 <comment>Identifikator ulice.</comment>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <referedAttribute>01989D4D-DF3F-9651-886A-E294CE6C637E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -200,9 +158,6 @@
 <comment>Identifikator grada.</comment>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <referedAttribute>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -215,15 +170,12 @@
 <comment>ISO kod države.</comment>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <referedAttribute>C5562177-B971-FF2A-99AB-52ED61744A6A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="AGENT_ID" id="AB96C793-0502-2A3D-B1B1-FB535E3FF937">
 <createdBy>authorit0</createdBy>
@@ -231,9 +183,6 @@
 <comment>Identifikator agenta.</comment>
 <generatorID>44E3052E-B0A3-F783-FE5D-1141B54515B2</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <referedAttribute>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -246,14 +195,59 @@
 <comment>Identifikator prodavca.</comment>
 <generatorID>6BA7EDE5-C595-14B0-3444-56392CE2BFA9</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <referedAttribute>0A87A8AE-3862-6F59-350B-7923BEF4FB71</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KUP_ID" id="A39D110B-7B97-EAAF-852F-53507D1E79B5">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 18:12:29 UTC</createdTime>
+<generatorID>D91AE672-4979-38C1-5845-C6763616FD0B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISHOD_ID" id="9A29192D-E76D-6858-7A4E-013B20EB3D7C">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 18:12:48 UTC</createdTime>
+<comment>Identifikator ishoda u posredovanju.</comment>
+<generatorID>7C9B57D7-C137-BFDE-45B2-CC5858C2B160</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>C9A10AEF-3CEE-293D-CF1A-28E4C2D909F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NEK_ID" id="F7E21448-75FC-8382-7F50-41FDE1639B12">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 20:46:52 UTC</createdTime>
+<comment>Identifikator nepokretnosti.</comment>
+<generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NEK_TIP_ID" id="A3A65137-B4BA-08D3-2545-C32D4F4DF8C3">
+<createdBy>mix</createdBy>
+<createdTime>2016-01-23 20:46:52 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -261,9 +255,6 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:19:34 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CBBD5FF0-77AC-62F3-587D-70D47DDDD869</attributeRef>

@@ -4,9 +4,6 @@
 <createdTime>2016-01-15 21:47:40 UTC</createdTime>
 <comment>Da li je nekretnina prodata, ili je ugovor otkazan itd.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -21,9 +18,6 @@
 <createdTime>2016-01-15 21:47:47 UTC</createdTime>
 <comment>Identifikator ishoda u posredovanju.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -34,9 +28,6 @@
 <createdTime>2016-01-15 21:48:12 UTC</createdTime>
 <comment>Naziv ishoda u posredovanju.(Prodato, Kupljeno, Iznajmljeno, itd.)</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,9 +40,6 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-15 21:47:59 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C9A10AEF-3CEE-293D-CF1A-28E4C2D909F5</attributeRef>

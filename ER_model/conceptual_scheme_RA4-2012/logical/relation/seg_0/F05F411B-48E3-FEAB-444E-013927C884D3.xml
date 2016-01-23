@@ -3,15 +3,13 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:52:11 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="0BA810E9-DF39-E7E9-6359-6C2E24025349" value="true"/>
-</engineerTo>
+<targetPk>A05469B5-50C6-24F9-5686-EE1D28B2E724</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>C5AA7F8F-C735-A90A-0555-8E47B8F16678</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>B97F3405-B16A-274A-32D6-BE1157B90E92</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
