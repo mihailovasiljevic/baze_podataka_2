@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="relational_scheme_RA4-2012" id="0A38F34A-F019-287D-38DF-09F08B31B9A6" mainViewID="4D74A99F-6CAD-E2A8-697D-EF687617D108">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:15:38 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

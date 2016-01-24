@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B410A16F-780E-263A-2347-133385F60FBB" name="Adresa">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>153CCA31-2786-F8E1-AFC5-36814C02C5B0</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADRS_ID" id="E6EEABDD-11C7-0116-FAA1-6B1C13725721">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>12444A2C-BE61-8363-166F-78B80D701241</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRS_ULBR" id="B3DF0E5B-B426-21D8-91FC-B4C24DC42E83">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<comment>Broj u ulici.</comment>
+<generatorID>2B828A9D-F7EF-7C81-B90C-F8A2B7929879</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA_ID" id="CC0BDDF7-6E2F-7F33-AB9B-A95D56B36553">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<generatorID>D7AD5A32-0D12-5A13-2C4B-2216E168008C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08059636-B380-4A1F-E61C-0E09AD84D5B7" referredColumn="997DF427-C8BD-8C93-58C7-B20528213CE6"/>
+</associations>
+</Column>
+<Column name="LOK_ID" id="D08B0088-FD86-97E2-4D7C-9667A3E87888">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<generatorID>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08059636-B380-4A1F-E61C-0E09AD84D5B7" referredColumn="6F7DC5E3-2B29-B1A0-8B80-EC4344A1E9E9"/>
+</associations>
+</Column>
+<Column name="DRZ_ID" id="D9B23403-790B-FB14-B24F-6D0A3B2A518B">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08059636-B380-4A1F-E61C-0E09AD84D5B7" referredColumn="E4789233-A2F7-5C62-C349-7790BD9C5067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F9526C8-B65F-E13D-3D46-AB4215E7D24E" name="Adresa_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>D1753C06-6454-1CBB-21C3-4C9FC3A6B9F5</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EEABDD-11C7-0116-FAA1-6B1C13725721"/>
+<colUsage columnID="CC0BDDF7-6E2F-7F33-AB9B-A95D56B36553"/>
+<colUsage columnID="D08B0088-FD86-97E2-4D7C-9667A3E87888"/>
+<colUsage columnID="D9B23403-790B-FB14-B24F-6D0A3B2A518B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1477761C-CDB5-4802-6368-1C31A5F81710" name="Adresa_Ulica_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC0BDDF7-6E2F-7F33-AB9B-A95D56B36553"/>
+<colUsage columnID="D08B0088-FD86-97E2-4D7C-9667A3E87888"/>
+<colUsage columnID="D9B23403-790B-FB14-B24F-6D0A3B2A518B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

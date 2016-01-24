@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="672B790E-45B2-FF68-DBF3-5845547FBFE2" containerWithKeyObject="7235933D-FC70-0F98-8820-D3ABD6328287" localFKIndex="6A0DE3D7-76DD-AA07-C6CB-A850BA1A4246" name="Nepokretnost_Tip_nepokretnosti_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>27EC9B6A-1271-98D9-0579-A358454E6592</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38F0BE49-EA5E-8A79-C56F-B8E6C3578A1E</referredTableID>
+<keyObject>D991C188-DDF3-AB91-B481-A22C2A05C36C</keyObject>
+<referredKeyID>D991C188-DDF3-AB91-B481-A22C2A05C36C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10609BEF-8CE5-C91D-BF15-8AD71E892656" containerWithKeyObject="948EC757-ADD9-24CA-A083-059267CB1DB0" localFKIndex="446B9030-EA41-06F8-CE46-AC4426D914B2" name="Agent_Stručna_sprema_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>7D3AA709-DA38-0798-5B86-F02356A1ED68</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FD3A803-39FF-777A-DC3D-F8578596A605</referredTableID>
+<keyObject>C753008D-A4F6-3285-9C8C-9A7462D3781F</keyObject>
+<referredKeyID>C753008D-A4F6-3285-9C8C-9A7462D3781F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

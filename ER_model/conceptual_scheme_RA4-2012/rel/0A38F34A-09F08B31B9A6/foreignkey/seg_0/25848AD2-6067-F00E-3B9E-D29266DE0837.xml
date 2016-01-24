@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25848AD2-6067-F00E-3B9E-D29266DE0837" containerWithKeyObject="6E9C1A1A-0F70-8E6D-918A-5ED8B094B895" localFKIndex="196E0342-D272-6E76-124E-2E4915A4F03E" name="Slika_Nepokretnost_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 14:16:41 UTC</createdTime>
+<generatorID>188FD50F-139E-41FA-AC4C-B0B586F11E2D</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7235933D-FC70-0F98-8820-D3ABD6328287</referredTableID>
+<keyObject>BD0B3184-AD4C-0AE9-8926-5F36EBA267E8</keyObject>
+<referredKeyID>BD0B3184-AD4C-0AE9-8926-5F36EBA267E8</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

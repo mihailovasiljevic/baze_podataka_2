@@ -194,21 +194,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PROD_ID" id="ECAC225F-6541-0497-EC92-E43917A7C627">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-19 12:32:10 UTC</createdTime>
-<comment>Identifikator prodavca.</comment>
-<generatorID>6BA7EDE5-C595-14B0-3444-56392CE2BFA9</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
-</engineerTo>
-<referedAttribute>0A87A8AE-3862-6F59-350B-7923BEF4FB71</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="KUP_ID" id="A39D110B-7B97-EAAF-852F-53507D1E79B5">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 18:12:29 UTC</createdTime>
@@ -237,7 +222,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_ID" id="F7E21448-75FC-8382-7F50-41FDE1639B12">
 <createdBy>mix</createdBy>
@@ -328,7 +313,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID1" id="03E7837F-9086-C7D5-1BF2-BCF8014497DD">
 <createdBy>Misa</createdBy>
@@ -358,7 +343,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CBBD5FF0-77AC-62F3-587D-70D47DDDD869</attributeRef>
-<attributeRef>ECAC225F-6541-0497-EC92-E43917A7C627</attributeRef>
 <attributeRef>AB96C793-0502-2A3D-B1B1-FB535E3FF937</attributeRef>
 <attributeRef>F7E21448-75FC-8382-7F50-41FDE1639B12</attributeRef>
 <attributeRef>A3A65137-B4BA-08D3-2545-C32D4F4DF8C3</attributeRef>
