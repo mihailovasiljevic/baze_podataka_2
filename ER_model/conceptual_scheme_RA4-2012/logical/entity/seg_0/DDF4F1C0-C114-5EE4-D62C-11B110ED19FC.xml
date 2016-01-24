@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDF4F1C0-C114-5EE4-D62C-11B110ED19FC" name="Stručna sprema">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDF4F1C0-C114-5EE4-D62C-11B110ED19FC" name="Strucna sprema">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:30:16 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,9 +19,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:30:30 UTC</createdTime>
 <comment>Identifikator stručne spreme</comment>
+<commentInRDBMS>Identifikator stručne spreme</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,9 +34,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:31:04 UTC</createdTime>
 <comment>Naziv stručne spreme.</comment>
+<commentInRDBMS>Naziv stručne spreme.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,8 +51,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:30:43 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

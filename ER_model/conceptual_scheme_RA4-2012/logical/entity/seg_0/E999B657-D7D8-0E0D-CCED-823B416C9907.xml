@@ -19,6 +19,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:54:36 UTC</createdTime>
 <comment>Identifikator slike.</comment>
+<commentInRDBMS>Identifikator slike.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -32,6 +33,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:54:55 UTC</createdTime>
 <comment>Naziv slike.</comment>
+<commentInRDBMS>Naziv slike.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -46,6 +48,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:55:29 UTC</createdTime>
 <comment>Putanja do slike na serveru.</comment>
+<commentInRDBMS>Putanja do slike na serveru.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -60,6 +63,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:56:28 UTC</createdTime>
 <comment>Opcioni opis slike.</comment>
+<commentInRDBMS>Opcioni opis slike.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -75,6 +79,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:57:42 UTC</createdTime>
 <comment>Identifikator nepokretnosti.</comment>
+<commentInRDBMS>Identifikator nepokretnosti.</commentInRDBMS>
 <generatorID>188FD50F-139E-41FA-AC4C-B0B586F11E2D</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -91,6 +96,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:57:42 UTC</createdTime>
 <comment>Identifikator tipa nepokretnosti.</comment>
+<commentInRDBMS>Identifikator tipa nepokretnosti.</commentInRDBMS>
 <generatorID>188FD50F-139E-41FA-AC4C-B0B586F11E2D</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -102,12 +108,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="POM_OBJ_ID" id="8B653148-822F-6B8F-8716-8E86155AE643">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:58:19 UTC</createdTime>
 <comment>Identifikator pomoćnog objekta.</comment>
+<commentInRDBMS>Identifikator pomoćnog objekta.</commentInRDBMS>
 <generatorID>B53E609B-793C-CA61-D89D-9B64C667892C</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -123,6 +130,7 @@
 <Attribute name="POM_OBJ_TIP_ID" id="51DBDCF5-0172-5FE4-5BB6-381B6426F262">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:18:55 UTC</createdTime>
+<commentInRDBMS>Identifikator tipa pomocnog objekta.</commentInRDBMS>
 <generatorID>B53E609B-793C-CA61-D89D-9B64C667892C</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -134,12 +142,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID" id="198C1711-EC73-66B4-688D-4BDDEA848017">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:31:07 UTC</createdTime>
 <comment>Identifikator prodavca.</comment>
+<commentInRDBMS>Identifikator prodavca.</commentInRDBMS>
 <generatorID>188FD50F-139E-41FA-AC4C-B0B586F11E2D</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -158,12 +167,25 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:54:47 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E34F4E64-F680-6114-DE5D-25D6C4A683B9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="25D20166-8DF8-9E73-88B9-45A4E23A68A3" name="Slika naz unique">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 16:05:13 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
+</engineerTo>
+<newElementsIDs>861D95A2-05AE-21EA-6552-565A925AF3EB</newElementsIDs>
+<usedAttributes>
+<attributeRef>861D95A2-05AE-21EA-6552-565A925AF3EB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

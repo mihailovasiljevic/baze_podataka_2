@@ -4,7 +4,7 @@
 <createdTime>2016-01-23 23:26:17 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +18,11 @@
 <Attribute name="ADRS_ID" id="12444A2C-BE61-8363-166F-78B80D701241">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 23:26:24 UTC</createdTime>
+<comment>Identifikator adrese.</comment>
+<commentInRDBMS>Identifikator adrese.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,9 +33,10 @@
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 23:26:40 UTC</createdTime>
 <comment>Broj u ulici.</comment>
+<commentInRDBMS>Broj u ulici.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,47 +48,52 @@
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 23:27:18 UTC</createdTime>
 <comment>Identifikator ulice.</comment>
+<commentInRDBMS>Identifikator ulice.</commentInRDBMS>
 <generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>01989D4D-DF3F-9651-886A-E294CE6C637E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LOK_ID" id="F584B9F7-B09E-5D06-C2F7-3D93B209DADE">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 23:27:18 UTC</createdTime>
 <comment>Identifikator grada.</comment>
+<commentInRDBMS>Identifikator grada.</commentInRDBMS>
 <generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DRZ_ID" id="46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 23:27:18 UTC</createdTime>
 <comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
 <generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C5562177-B971-FF2A-99AB-52ED61744A6A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -95,7 +103,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="false"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68DCC203-EBAE-5EBD-8862-ABE4B77D83DF" name="Stručni ispit">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68DCC203-EBAE-5EBD-8862-ABE4B77D83DF" name="Strucni ispit">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:12:53 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,9 +19,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:13:38 UTC</createdTime>
 <comment>Oznaka pod kojom je izdat sertifikat o položenom stručnom ispitu.</comment>
+<commentInRDBMS>Oznaka pod kojom je izdat sertifikat o položenom stručnom ispitu.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,9 +33,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:14:09 UTC</createdTime>
 <comment>Datum kada je stručni ispit položen.</comment>
+<commentInRDBMS>Datum kada je stručni ispit položen.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,9 +47,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:15:12 UTC</createdTime>
 <comment>Datum isticanja važenja položenog stručnog ispita.</comment>
+<commentInRDBMS>Datum isticanja važenja položenog stručnog ispita.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,7 +66,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="false"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

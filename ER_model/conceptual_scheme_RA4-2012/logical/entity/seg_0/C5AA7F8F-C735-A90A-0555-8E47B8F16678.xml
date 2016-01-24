@@ -19,6 +19,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:49:53 UTC</createdTime>
 <comment>Identifikator pomoćnog objekta.</comment>
+<commentInRDBMS>Identifikator pomoćnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -32,6 +33,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:50:18 UTC</createdTime>
 <comment>Naziv tipa pomoćnog objekta.</comment>
+<commentInRDBMS>Naziv tipa pomoćnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -46,6 +48,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:50:54 UTC</createdTime>
 <comment>Povšrina pomoćnog objekta.</comment>
+<commentInRDBMS>Povšrina pomoćnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
@@ -61,6 +64,7 @@
 <Attribute name="POM_OBJ_TIP_ID" id="85D81B79-73E1-9905-6FE1-ABDC85DE0AC2">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:18:55 UTC</createdTime>
+<commentInRDBMS>Identifikator tipa pomocnog objekta.</commentInRDBMS>
 <generatorID>9E702986-D629-AFCE-9729-8C7754D06854</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -71,12 +75,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_ID" id="182D649A-1B88-6D0A-9C69-866492EDFBB4">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:19:10 UTC</createdTime>
 <comment>Identifikator nepokretnosti.</comment>
+<commentInRDBMS>Identifikator nepokretnosti.</commentInRDBMS>
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -92,6 +97,7 @@
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:19:10 UTC</createdTime>
 <comment>Identifikator tipa nepokretnosti.</comment>
+<commentInRDBMS>Identifikator tipa nepokretnosti.</commentInRDBMS>
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -102,12 +108,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID" id="61A84C74-412D-F925-97E3-7DC40880429C">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:31:07 UTC</createdTime>
 <comment>Identifikator prodavca.</comment>
+<commentInRDBMS>Identifikator prodavca.</commentInRDBMS>
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
@@ -125,8 +132,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:50:00 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

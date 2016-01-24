@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DE4370D-E9A0-D1F7-4561-D4383812BCC8" name="Država">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DE4370D-E9A0-D1F7-4561-D4383812BCC8" name="Drzava">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:04:55 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,9 +19,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:05:03 UTC</createdTime>
 <comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,9 +34,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:05:23 UTC</createdTime>
 <comment>Naziv države.</comment>
+<commentInRDBMS>Naziv države.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,8 +51,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:05:17 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

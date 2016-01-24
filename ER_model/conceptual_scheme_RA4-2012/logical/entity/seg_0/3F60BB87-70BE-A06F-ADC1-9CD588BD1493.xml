@@ -4,7 +4,7 @@
 <createdTime>2016-01-14 18:01:50 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +18,11 @@
 <Attribute name="KUP_ID" id="CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:01:55 UTC</createdTime>
+<comment>Identifikator kupca.</comment>
+<commentInRDBMS>Identifikator kupca.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,9 +32,11 @@
 <Attribute name="KUP_IME" id="1BBD1CB2-4D9B-0AF0-0C96-477C612A4976">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:02:08 UTC</createdTime>
+<comment>Ime kupca.</comment>
+<commentInRDBMS>Ime kupca.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,9 +47,11 @@
 <Attribute name="KUP_PREZ" id="AF5136F9-BE1B-F21D-BB2F-C216A1249243">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:02:22 UTC</createdTime>
+<comment>Prezime kupca.</comment>
+<commentInRDBMS>Prezime kupca.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,9 +62,11 @@
 <Attribute name="KUP_BRLK" id="8ABACBD4-13C3-0026-E2FA-3CA63DF2EEDD">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:02:39 UTC</createdTime>
+<comment>Broj lince karte  kupca.</comment>
+<commentInRDBMS>Broj lince karte  kupca.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,9 +77,11 @@
 <Attribute name="KUP_TEL" id="CB2B91C9-4D3C-195E-1193-9D89AF4BAC09">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:03:06 UTC</createdTime>
+<comment>Telefon  kupca.</comment>
+<commentInRDBMS>Telefon  kupca.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -81,9 +91,11 @@
 <Attribute name="KUP_EMAIL" id="A7E3E48A-C540-2076-AA2A-388B136E2FFC">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:03:16 UTC</createdTime>
+<comment>Email kupca.</comment>
+<commentInRDBMS>Email kupca.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,10 +107,12 @@
 <Attribute name="ADRS_ID" id="7BDDE285-C063-F517-0ADF-2501B8A0A27C">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:05:57 UTC</createdTime>
+<comment>Adresa kupca.</comment>
+<commentInRDBMS>Adresa kupca.</commentInRDBMS>
 <generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>12444A2C-BE61-8363-166F-78B80D701241</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -110,40 +124,45 @@
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:05:57 UTC</createdTime>
 <comment>Identifikator ulice.</comment>
+<commentInRDBMS>Identifikator ulice.</commentInRDBMS>
 <generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>D7AD5A32-0D12-5A13-2C4B-2216E168008C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LOK_ID" id="1698A53A-9A5B-E6B4-F2C8-E1F67826EA7D">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:05:57 UTC</createdTime>
 <comment>Identifikator grada.</comment>
+<commentInRDBMS>Identifikator grada.</commentInRDBMS>
 <generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DRZ_ID" id="BB5D53C5-9EBC-CFC1-7D49-25B89CF3E931">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:05:57 UTC</createdTime>
 <comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
 <generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -158,8 +177,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:02:07 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

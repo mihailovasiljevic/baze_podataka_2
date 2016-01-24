@@ -4,7 +4,7 @@
 <createdTime>2016-01-19 12:18:53 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,9 +19,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:21:07 UTC</createdTime>
 <comment>Svrha ugovora.</comment>
+<commentInRDBMS>Svrha ugovora.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,9 +35,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:20:11 UTC</createdTime>
 <comment>Datum sklapanja ugovora.</comment>
+<commentInRDBMS>Datum sklapanja ugovora.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,9 +49,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:21:54 UTC</createdTime>
 <comment>Rok isplate.</comment>
+<commentInRDBMS>Rok isplate.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,9 +63,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:20:40 UTC</createdTime>
 <comment>Datum isticanja ugovora.(Ugovor važi najviše godinu dana.)</comment>
+<commentInRDBMS>Datum isticanja ugovora.(Ugovor važi najviše godinu dana.)</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,9 +77,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:19:12 UTC</createdTime>
 <comment>Identifikator ugovora o posredovanju</comment>
+<commentInRDBMS>Identifikator ugovora o posredovanju</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,9 +91,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:19:41 UTC</createdTime>
 <comment>Visina troškova.</comment>
+<commentInRDBMS>Visina troškova.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,9 +107,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:25:16 UTC</createdTime>
 <comment>Otkazni rok. Datum do kog se ugovor može otkazati.</comment>
+<commentInRDBMS>Otkazni rok. Datum do kog se ugovor može otkazati.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -113,10 +120,11 @@
 <Attribute name="POSR_NAZ_SUDA" id="AB0AACB5-12C0-7EC7-6251-F50DCEC5A320">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:25:57 UTC</createdTime>
-<comment>Naziv nadležnnog suda.</comment>
+<comment>Naziv nadležnog suda.</comment>
+<commentInRDBMS>Naziv nadležnog suda.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -128,9 +136,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:26:23 UTC</createdTime>
 <comment>Telefon nadležnog suda.</comment>
+<commentInRDBMS>Telefon nadležnog suda.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -142,9 +151,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:26:58 UTC</createdTime>
 <comment>Broj primeraka ugovora.</comment>
+<commentInRDBMS>Broj primeraka ugovora.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -155,9 +165,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:27:17 UTC</createdTime>
 <comment>Broj primeraka po potpisnim stranama.</comment>
+<commentInRDBMS>Broj primeraka po potpisnim stranama.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -168,25 +179,27 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:27:48 UTC</createdTime>
 <comment>Da li je ugovor potpisan?</comment>
+<commentInRDBMS>Da li je ugovor potpisan?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1 BYTE</dataTypeSize>
-<defaultValue>FALSE</defaultValue>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="AGENT_ID" id="AB96C793-0502-2A3D-B1B1-FB535E3FF937">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:30:49 UTC</createdTime>
 <comment>Identifikator agenta.</comment>
+<commentInRDBMS>Identifikator agenta.</commentInRDBMS>
 <generatorID>44E3052E-B0A3-F783-FE5D-1141B54515B2</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -197,10 +210,12 @@
 <Attribute name="KUP_ID" id="A39D110B-7B97-EAAF-852F-53507D1E79B5">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 18:12:29 UTC</createdTime>
+<comment>Identifikator kupca.</comment>
+<commentInRDBMS>Identifikator kupca.</commentInRDBMS>
 <generatorID>D91AE672-4979-38C1-5845-C6763616FD0B</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -212,26 +227,28 @@
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 18:12:48 UTC</createdTime>
 <comment>Identifikator ishoda u posredovanju.</comment>
+<commentInRDBMS>Identifikator ishoda u posredovanju.</commentInRDBMS>
 <generatorID>7C9B57D7-C137-BFDE-45B2-CC5858C2B160</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C9A10AEF-3CEE-293D-CF1A-28E4C2D909F5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_ID" id="F7E21448-75FC-8382-7F50-41FDE1639B12">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 20:46:52 UTC</createdTime>
 <comment>Identifikator nepokretnosti.</comment>
+<commentInRDBMS>Identifikator nepokretnosti.</commentInRDBMS>
 <generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -243,25 +260,28 @@
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 20:46:52 UTC</createdTime>
 <comment>Identifikator tipa nepokretnosti.</comment>
+<commentInRDBMS>Identifikator tipa nepokretnosti.</commentInRDBMS>
 <generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ADRS_ID" id="29F43289-FA59-0680-99B9-D8588A6FEDFB">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:06:03 UTC</createdTime>
+<comment>Identifikator adrese.</comment>
+<commentInRDBMS>Identifikator adrese.</commentInRDBMS>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>12444A2C-BE61-8363-166F-78B80D701241</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -273,56 +293,62 @@
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:06:03 UTC</createdTime>
 <comment>Identifikator ulice.</comment>
+<commentInRDBMS>Identifikator ulice.</commentInRDBMS>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>D7AD5A32-0D12-5A13-2C4B-2216E168008C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LOK_ID" id="A5FCFDE7-07A3-D884-78B1-8FDC0BD7C8F7">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:06:03 UTC</createdTime>
 <comment>Identifikator grada.</comment>
+<commentInRDBMS>Identifikator grada.</commentInRDBMS>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DRZ_ID" id="E297F048-432A-023C-836D-22968CCB96FE">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:06:03 UTC</createdTime>
 <comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID1" id="03E7837F-9086-C7D5-1BF2-BCF8014497DD">
 <createdBy>Misa</createdBy>
 <createdTime>2016-01-24 03:31:07 UTC</createdTime>
 <comment>Identifikator prodavca.</comment>
+<commentInRDBMS>Identifikator prodavca.</commentInRDBMS>
 <generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C94F7A90-4A3F-8A61-2372-A0D42AFB4898</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -338,7 +364,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="false"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

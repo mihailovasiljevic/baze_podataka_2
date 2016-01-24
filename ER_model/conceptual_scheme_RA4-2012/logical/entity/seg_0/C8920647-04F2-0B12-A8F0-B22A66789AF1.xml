@@ -4,7 +4,7 @@
 <createdTime>2016-01-23 19:17:23 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +18,10 @@
 <Attribute name="POM_OBJ_TIP_ID" id="01C20A38-6B6A-023E-C1F5-4DEB7C587970">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:17:31 UTC</createdTime>
+<commentInRDBMS>Identifikator tipa pomocnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,9 +32,10 @@
 <Attribute name="POM_OBJ_TIP_NAZ" id="4C932461-7394-5F4E-7CEB-CBD1D0EB9DC9">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:17:59 UTC</createdTime>
+<commentInRDBMS>Naziv tipa pomocnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +51,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="false"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

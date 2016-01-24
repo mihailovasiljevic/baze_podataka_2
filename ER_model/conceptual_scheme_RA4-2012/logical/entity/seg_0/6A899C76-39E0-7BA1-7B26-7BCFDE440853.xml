@@ -5,7 +5,7 @@
 <comment>Da li je nekretnina prodata, ili je ugovor otkazan itd.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-15 21:47:47 UTC</createdTime>
 <comment>Identifikator ishoda u posredovanju.</comment>
+<commentInRDBMS>Identifikator ishoda u posredovanju.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,9 +35,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-15 21:48:12 UTC</createdTime>
 <comment>Naziv ishoda u posredovanju.(Prodato, Kupljeno, Iznajmljeno, itd.)</comment>
+<commentInRDBMS>Naziv ishoda u posredovanju.(Prodato, Kupljeno, Iznajmljeno, itd.)</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,7 +54,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="false"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

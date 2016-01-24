@@ -3,6 +3,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:45:33 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,7 +19,11 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:45:40 UTC</createdTime>
 <comment>Identifikator tipa nepokretnosti.</comment>
+<commentInRDBMS>Identifikator tipa nepokretnosti.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -27,7 +34,11 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:46:05 UTC</createdTime>
 <comment>Naziv tipa nepokretnosti.</comment>
+<commentInRDBMS>Naziv tipa nepokretnosti.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -40,6 +51,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:45:54 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F406F1A6-A683-5D02-94FA-0DF2A4901244</attributeRef>
