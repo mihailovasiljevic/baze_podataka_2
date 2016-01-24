@@ -3,6 +3,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:16:00 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2016-01-14 18:16:11 UTC</createdTime>
 <comment>Identifikator agenta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -27,6 +33,9 @@
 <createdTime>2016-01-14 18:16:46 UTC</createdTime>
 <comment>Ime agenta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -38,6 +47,9 @@
 <createdTime>2016-01-14 18:17:47 UTC</createdTime>
 <comment>Prezime agenta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,6 +61,9 @@
 <createdTime>2016-01-14 18:18:07 UTC</createdTime>
 <comment>Telefon agenta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -60,6 +75,9 @@
 <comment>Identifikator stručne spreme</comment>
 <generatorID>7D3AA709-DA38-0798-5B86-F02356A1ED68</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>CD457006-208A-F02E-1121-B0902EC1D16D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,6 +91,9 @@
 <comment>ISO kod države.</comment>
 <generatorID>FBE26F58-85F7-B1BF-C565-192F3671E514</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>10A26566-5225-ECD0-0135-611744359E4D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,11 +105,90 @@
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 20:45:19 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>9 CHAR</dataTypeSize>
 <ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADRS_ID" id="B65F0544-288A-8781-C5D8-3D57C976B111">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:46:05 UTC</createdTime>
+<generatorID>84DEDFB5-CAC6-7F41-61C1-6E7AA383E8BC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<referedAttribute>12444A2C-BE61-8363-166F-78B80D701241</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ULICA_ID" id="CD73F21C-A39D-0C8F-C86D-CCE13249423F">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:46:05 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<generatorID>84DEDFB5-CAC6-7F41-61C1-6E7AA383E8BC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<referedAttribute>D7AD5A32-0D12-5A13-2C4B-2216E168008C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOK_ID" id="624E833A-E7FF-2469-7108-13B230FF8214">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:46:05 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<generatorID>84DEDFB5-CAC6-7F41-61C1-6E7AA383E8BC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<referedAttribute>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DRZ_ID1" id="79AAA142-D96F-135F-1192-7DF59662F17E">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:46:05 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>84DEDFB5-CAC6-7F41-61C1-6E7AA383E8BC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<referedAttribute>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_ISP_OZN" id="9D56C8EC-4597-F459-5F19-07CCCF2FBFB2">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:57:17 UTC</createdTime>
+<comment>Oznaka pod kojom je izdat sertifikat o položenom stručnom ispitu.</comment>
+<generatorID>609B6234-68FD-585B-4CCF-3F2F6EF7F768</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7A5BDBC9-0923-D941-BEBD-8E94D3224822</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -96,6 +196,10 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:16:45 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</attributeRef>

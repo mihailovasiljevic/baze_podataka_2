@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC5C213C-4F02-D707-8766-02D931B207A6" name="Država">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>4DE4370D-E9A0-D1F7-4561-D4383812BCC8</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DRZ_ID" id="4E126FEF-E569-5F67-056D-8894868C1FBD">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>10A26566-5225-ECD0-0135-611744359E4D</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRZ_NAZ" id="C9BF3094-95F3-118B-D097-ADE86DEBA89B">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Naziv države.</comment>
+<generatorID>BD10CFFB-B700-E0AD-58AC-8245DBD0D362</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="229485BA-A74F-70D2-5435-770247C221D0" name="Država_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>819336A0-4ED9-D8F6-0FE0-744484A402E1</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E126FEF-E569-5F67-056D-8894868C1FBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

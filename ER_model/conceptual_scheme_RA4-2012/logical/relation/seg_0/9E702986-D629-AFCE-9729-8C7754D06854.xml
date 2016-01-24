@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_26" directorySegmentName="seg_0" id="9E702986-D629-AFCE-9729-8C7754D06854">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="klasifikuje objekte" directorySegmentName="seg_0" id="9E702986-D629-AFCE-9729-8C7754D06854">
 <createdBy>mix</createdBy>
 <createdTime>2016-01-23 19:18:55 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+</engineerTo>
 <sourcePk>ED97C049-2DB1-6F36-F755-072363D50D99</sourcePk>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>

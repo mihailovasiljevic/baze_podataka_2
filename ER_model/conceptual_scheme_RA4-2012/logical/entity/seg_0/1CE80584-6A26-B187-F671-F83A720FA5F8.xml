@@ -3,6 +3,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:08:35 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2016-01-14 18:08:42 UTC</createdTime>
 <comment>Identifikator ulice.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -27,6 +33,9 @@
 <createdTime>2016-01-14 18:09:05 UTC</createdTime>
 <comment>Naziv ulice.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -38,6 +47,9 @@
 <comment>Identifikator grada.</comment>
 <generatorID>DA2A84A7-E07B-0365-8EF1-CB9EFA9F5B47</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>9B9AD292-8F64-5174-3017-7280805833F7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,6 +62,9 @@
 <comment>ISO kod države.</comment>
 <generatorID>DA2A84A7-E07B-0365-8EF1-CB9EFA9F5B47</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>702D6C02-6191-D884-4796-507820F93B57</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,60 +72,15 @@
 <dataTypeSize>3 CHAR</dataTypeSize>
 <ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PROD_ID" id="2FB019DE-8E46-220A-D49C-8BC56EADD1CB">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:10:05 UTC</createdTime>
-<comment>Identifikator prodavca.</comment>
-<generatorID>CF9B8FAC-DFDC-1BAB-8EB6-0296AE8DB6D0</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<referedAttribute>0A87A8AE-3862-6F59-350B-7923BEF4FB71</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="KUP_ID" id="A91FF26A-FCEA-45AC-0B60-C45DC980D214">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:10:46 UTC</createdTime>
-<generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<referedAttribute>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NEK_ID" id="D1AAF8A7-DC41-6F3F-4005-7089FA386150">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:10:56 UTC</createdTime>
-<comment>Identifikator nepokretnosti.</comment>
-<generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NEK_TIP_ID" id="6C272947-1526-44C3-402D-E10B551A743F">
-<createdBy>authorit0</createdBy>
-<createdTime>2016-01-14 18:10:56 UTC</createdTime>
-<comment>Identifikator tipa nepokretnosti.</comment>
-<generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
-<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CAD4A5A6-03ED-3C85-2A82-C4DF633D1E6A" name="Ulica PK">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:08:57 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>01989D4D-DF3F-9651-886A-E294CE6C637E</attributeRef>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Agen stanuje u" directorySegmentName="seg_0" id="84DEDFB5-CAC6-7F41-61C1-6E7AA383E8BC">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:45:55 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<sourcePk>F29A008B-1757-64E0-A292-533AC404978F</sourcePk>
+<targetPk>D1753C06-6454-1CBB-21C3-4C9FC3A6B9F5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0605DF55-B9DD-3557-60A7-C1754455423F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>153CCA31-2786-F8E1-AFC5-36814C02C5B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

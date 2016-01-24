@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5513AD5F-0E09-CB5F-B178-FE7151DC33ED" name="Tip_nepokretnosti">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>2C6AA2BB-1122-A4F5-0F4E-AE9160CF1BD4</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NEK_TIP_ID" id="01B0F4D2-FFE5-4BE3-9705-3C74E1001BD7">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<generatorID>F406F1A6-A683-5D02-94FA-0DF2A4901244</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEK_TIP_NAZ" id="76695631-563E-BA1C-F6C8-D087ABD73DEF">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Naziv tipa nepokretnosti.</comment>
+<generatorID>13EAE008-62C2-65E5-ECB7-9C666A40FDA2</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E498B68-1622-04B0-DADE-B09A8BA4F66E" name="Tip_nepokretnosti_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>D49F94AF-0341-2923-258B-4516BBC40ABE</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01B0F4D2-FFE5-4BE3-9705-3C74E1001BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

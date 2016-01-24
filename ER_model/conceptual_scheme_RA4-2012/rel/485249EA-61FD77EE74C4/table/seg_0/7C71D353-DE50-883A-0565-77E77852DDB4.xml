@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C71D353-DE50-883A-0565-77E77852DDB4" name="Stručna_sprema">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>DDF4F1C0-C114-5EE4-D62C-11B110ED19FC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STRUC_SPREM_ID" id="36C51D4D-20F6-FC8A-6C23-4A5E263A9133">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Identifikator stručne spreme</comment>
+<generatorID>CD457006-208A-F02E-1121-B0902EC1D16D</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STRUC_SPREM_NAZ" id="EAF1035A-AFB0-BAE0-D826-7F48FE674BB5">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Naziv stručne spreme.</comment>
+<generatorID>0EA47624-FB66-2308-27CF-6CA96AFFA44C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18E3309E-4983-822B-30FC-19F9C99033E4" name="Stručna_sprema_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>E6B3F5BA-1AB6-1179-8323-00C2DC9CD117</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C51D4D-20F6-FC8A-6C23-4A5E263A9133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

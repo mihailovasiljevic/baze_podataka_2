@@ -3,6 +3,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:49:43 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2016-01-14 17:49:53 UTC</createdTime>
 <comment>Identifikator pomoćnog objekta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -27,6 +33,9 @@
 <createdTime>2016-01-14 17:50:18 UTC</createdTime>
 <comment>Naziv tipa pomoćnog objekta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -38,6 +47,9 @@
 <createdTime>2016-01-14 17:50:54 UTC</createdTime>
 <comment>Povšrina pomoćnog objekta.</comment>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,12 +63,15 @@
 <createdTime>2016-01-23 19:18:55 UTC</createdTime>
 <generatorID>9E702986-D629-AFCE-9729-8C7754D06854</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>01C20A38-6B6A-023E-C1F5-4DEB7C587970</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_ID" id="182D649A-1B88-6D0A-9C69-866492EDFBB4">
 <createdBy>mix</createdBy>
@@ -64,6 +79,9 @@
 <comment>Identifikator nepokretnosti.</comment>
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,11 +94,29 @@
 <comment>Identifikator tipa nepokretnosti.</comment>
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_ID" id="61A84C74-412D-F925-97E3-7DC40880429C">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:31:07 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
+<referedAttribute>C94F7A90-4A3F-8A61-2372-A0D42AFB4898</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -89,6 +125,9 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:50:00 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<engineerTo>
+<item key="485249EA-C2AE-7586-7840-61FD77EE74C4" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>732F2845-348E-6DEE-A0B7-8B8CDD6CB705</attributeRef>

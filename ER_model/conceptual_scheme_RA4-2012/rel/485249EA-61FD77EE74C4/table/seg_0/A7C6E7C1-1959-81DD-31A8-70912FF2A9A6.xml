@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7C6E7C1-1959-81DD-31A8-70912FF2A9A6" name="Prodavac">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>EF06AD86-D1FE-9D08-2E39-88A8B6B517B5</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="4A13E5CF-9641-90B7-9233-F1E6908A1C81">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<generatorID>0A87A8AE-3862-6F59-350B-7923BEF4FB71</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_IME" id="3F0002CD-8EE9-7B1F-61AC-2A4BD1330337">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Ime prodavca.</comment>
+<generatorID>3451EE18-F7D1-D7FB-051D-73E94D7AD9C5</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_PREZ" id="40E4E17D-306C-0438-D728-1D5F00970D3C">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Prezime prodavca.</comment>
+<generatorID>E9D03B67-5012-04D9-0748-D1C6857FDB1B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_BRLK" id="34D89B29-C973-1188-FD1C-4BDF4D8B1267">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Broj lične karte.</comment>
+<generatorID>F4B37208-872E-D96E-9769-CAFE5320CCF6</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_TEL" id="9A70504C-C0D9-DC8D-4E93-F1140B073414">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Broj telefona prodavca.</comment>
+<generatorID>F556E182-8B1D-A9F3-8ACE-E5AA28481FBD</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_EMAIL" id="708FA2CD-3B10-D4FB-A549-D698C90B5652">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Email adresa prodavca.</comment>
+<generatorID>0FF22DF1-130B-CD59-CEFF-4BF6D9D98D5B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_ANONIM" id="6F842FC9-48C1-F997-1F35-3B221CC221B7">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Da li prodavac želi da bude anoniman?</comment>
+<generatorID>287343D9-F774-5F21-6119-06D488B6D85F</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>FALSE</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_ADRS_ID" id="08ADDF89-63A7-7411-F99D-9F84A1047A6F">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>B2B4BB35-36C3-D51E-280B-CE85169B49F4</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21164993-A82D-BD91-804F-2278DA56F912" referredColumn="46226EE7-4A9D-498D-45F6-193C8096B6DD"/>
+</associations>
+</Column>
+<Column name="Adresa_Ulica_ULICA_ID" id="1A417914-88EE-C44E-DEE1-386AF9AE7078">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<generatorID>6EA79DBF-5E8D-8B3B-3A9D-0DBB000CEC47</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21164993-A82D-BD91-804F-2278DA56F912" referredColumn="4F383EF3-A167-07BA-2597-8FD3D9FCB04A"/>
+</associations>
+</Column>
+<Column name="Adresa_Ulica_Grad_LOK_ID" id="FE714C27-CFEC-C100-AA19-DEB9266FCCBA">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<generatorID>B93E3C19-BF24-F484-B22C-542EA683B793</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21164993-A82D-BD91-804F-2278DA56F912" referredColumn="6F963E05-B3FA-0522-1A5C-7A3C4DC162A4"/>
+</associations>
+</Column>
+<Column name="Adresa_Ulica_Grad_Država_DRZ_ID" id="215B1045-9EF9-336F-8CC8-D4FA3FA10C56">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<generatorID>05B38168-78DA-B0F5-541D-BDE29E9CDF30</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21164993-A82D-BD91-804F-2278DA56F912" referredColumn="1C1C1E9E-2D2C-EAB4-4803-93E4E763D2F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7357E690-722E-58B3-3D67-EACA322E36E1" name="Prodavac_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:15 UTC</createdTime>
+<generatorID>F69B10CE-AC68-031A-3E38-195836C3390E</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A13E5CF-9641-90B7-9233-F1E6908A1C81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAA1DDD3-BE10-6555-9241-C713BD871B6A" name="Prodavac_Adresa_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 03:35:16 UTC</createdTime>
+<generatorID>CF9B8FAC-DFDC-1BAB-8EB6-0296AE8DB6D0</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08ADDF89-63A7-7411-F99D-9F84A1047A6F"/>
+<colUsage columnID="1A417914-88EE-C44E-DEE1-386AF9AE7078"/>
+<colUsage columnID="FE714C27-CFEC-C100-AA19-DEB9266FCCBA"/>
+<colUsage columnID="215B1045-9EF9-336F-8CC8-D4FA3FA10C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
