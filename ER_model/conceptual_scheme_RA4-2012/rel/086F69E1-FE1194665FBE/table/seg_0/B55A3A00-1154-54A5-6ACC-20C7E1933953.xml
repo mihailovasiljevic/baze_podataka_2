@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B55A3A00-1154-54A5-6ACC-20C7E1933953" name="Strucna_sprema">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>DDF4F1C0-C114-5EE4-D62C-11B110ED19FC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STRUC_SPREM_ID" id="20B1C349-0D0E-0BC6-6343-ABE3A393316D">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator stručne spreme</comment>
+<commentInRDBMS>Identifikator stručne spreme</commentInRDBMS>
+<generatorID>CD457006-208A-F02E-1121-B0902EC1D16D</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STRUC_SPREM_NAZ" id="719F44A1-81F4-4441-C46B-8789FE32FFFD">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Naziv stručne spreme.</comment>
+<commentInRDBMS>Naziv stručne spreme.</commentInRDBMS>
+<generatorID>0EA47624-FB66-2308-27CF-6CA96AFFA44C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0F3B547-5942-CD80-78CA-03619DC8A150" name="Strucna_sprema_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>E6B3F5BA-1AB6-1179-8323-00C2DC9CD117</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20B1C349-0D0E-0BC6-6343-ABE3A393316D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

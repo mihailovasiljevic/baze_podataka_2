@@ -4,6 +4,7 @@
 <createdTime>2016-01-19 12:18:53 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,6 +23,7 @@
 <commentInRDBMS>Svrha ugovora.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -38,6 +40,7 @@
 <commentInRDBMS>Datum sklapanja ugovora.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,6 +55,7 @@
 <commentInRDBMS>Rok isplate.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,6 +70,7 @@
 <commentInRDBMS>Datum isticanja ugovora.(Ugovor važi najviše godinu dana.)</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,6 +85,7 @@
 <commentInRDBMS>Identifikator ugovora o posredovanju</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,6 +100,7 @@
 <commentInRDBMS>Visina troškova.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -110,6 +117,7 @@
 <commentInRDBMS>Otkazni rok. Datum do kog se ugovor može otkazati.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,6 +132,7 @@
 <commentInRDBMS>Naziv nadležnog suda.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -139,13 +148,14 @@
 <commentInRDBMS>Telefon nadležnog suda.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>12 CHAR</dataTypeSize>
-<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="POSR_BRPR" id="01058393-F654-F6D8-8CE9-E90437275F89">
 <createdBy>authorit0</createdBy>
@@ -154,6 +164,7 @@
 <commentInRDBMS>Broj primeraka ugovora.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -168,6 +179,7 @@
 <commentInRDBMS>Broj primeraka po potpisnim stranama.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -182,6 +194,7 @@
 <commentInRDBMS>Da li je ugovor potpisan?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -199,6 +212,7 @@
 <generatorID>44E3052E-B0A3-F783-FE5D-1141B54515B2</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>2E8EE894-FCE2-9728-1F06-CC973CBA6C42</referedAttribute>
@@ -215,6 +229,7 @@
 <generatorID>D91AE672-4979-38C1-5845-C6763616FD0B</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</referedAttribute>
@@ -231,6 +246,7 @@
 <generatorID>7C9B57D7-C137-BFDE-45B2-CC5858C2B160</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C9A10AEF-3CEE-293D-CF1A-28E4C2D909F5</referedAttribute>
@@ -238,7 +254,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_ID" id="F7E21448-75FC-8382-7F50-41FDE1639B12">
 <createdBy>mix</createdBy>
@@ -248,6 +264,7 @@
 <generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
@@ -264,6 +281,7 @@
 <generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
@@ -271,7 +289,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ADRS_ID" id="29F43289-FA59-0680-99B9-D8588A6FEDFB">
 <createdBy>Misa</createdBy>
@@ -281,6 +299,7 @@
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>12444A2C-BE61-8363-166F-78B80D701241</referedAttribute>
@@ -297,6 +316,7 @@
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>D7AD5A32-0D12-5A13-2C4B-2216E168008C</referedAttribute>
@@ -304,7 +324,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LOK_ID" id="A5FCFDE7-07A3-D884-78B1-8FDC0BD7C8F7">
 <createdBy>Misa</createdBy>
@@ -314,6 +334,7 @@
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</referedAttribute>
@@ -321,7 +342,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DRZ_ID" id="E297F048-432A-023C-836D-22968CCB96FE">
 <createdBy>Misa</createdBy>
@@ -331,6 +352,7 @@
 <generatorID>44486A2F-C367-7B17-49D2-76C69891F6B1</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</referedAttribute>
@@ -338,7 +360,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID1" id="03E7837F-9086-C7D5-1BF2-BCF8014497DD">
 <createdBy>Misa</createdBy>
@@ -348,6 +370,7 @@
 <generatorID>2EEE6960-6E62-F77E-5BAE-17A78BBE6473</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C94F7A90-4A3F-8A61-2372-A0D42AFB4898</referedAttribute>
@@ -362,8 +385,8 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-19 12:19:34 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>

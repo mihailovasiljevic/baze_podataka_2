@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AE0CA31-8DAB-5D0E-AE6B-2F6D3773ACC3" name="Slika">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>E999B657-D7D8-0E0D-CCED-823B416C9907</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SLIKA_ID" id="E163E96A-DA6C-9B12-D6FF-C13EF9603851">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator slike.</comment>
+<commentInRDBMS>Identifikator slike.</commentInRDBMS>
+<generatorID>E34F4E64-F680-6114-DE5D-25D6C4A683B9</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SLIKA_NAZ" id="2F0C64A1-1743-B3CC-C6B4-012C5DE89092">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Naziv slike.</comment>
+<commentInRDBMS>Naziv slike.</commentInRDBMS>
+<generatorID>861D95A2-05AE-21EA-6552-565A925AF3EB</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SLIKA_PUT" id="11FC6121-B0C6-AB4C-020D-FEC5178A5C0A">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Putanja do slike na serveru.</comment>
+<commentInRDBMS>Putanja do slike na serveru.</commentInRDBMS>
+<generatorID>2ABE9201-E548-4B48-E40D-81F139A158B5</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SLIKA_OPIS" id="7CCF5933-3A6A-2E23-58FB-8BA679ACC5B1">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Opcioni opis slike.</comment>
+<commentInRDBMS>Opcioni opis slike.</commentInRDBMS>
+<generatorID>21CAFB69-662B-5B95-647B-EEDF20584ADB</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2048 CHAR</dataTypeSize>
+<ownDataTypeParameters>2048 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEK_ID" id="8937C670-C162-C347-A686-C8B3ACAC1734">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator nepokretnosti.</comment>
+<commentInRDBMS>Identifikator nepokretnosti.</commentInRDBMS>
+<generatorID>BA00529C-2274-898A-F8C7-10EBB14FD069</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7943AC7C-17BE-EB2A-4577-4397A61324ED" referredColumn="DEED91F2-09D1-9D64-EE6F-18A25551843D"/>
+</associations>
+</Column>
+<Column name="NEK_TIP_ID" id="1FF14F3D-6529-2B7C-029C-31B661F51B81">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<commentInRDBMS>Identifikator tipa nepokretnosti.</commentInRDBMS>
+<generatorID>6DB42BA3-9862-67C9-9E2A-9A7E620BACDE</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7943AC7C-17BE-EB2A-4577-4397A61324ED" referredColumn="79CAE1A7-42E3-C1C5-33B2-0E1046258816"/>
+</associations>
+</Column>
+<Column name="POM_OBJ_ID" id="42F1B903-B065-3A27-F1C3-035CC536E2E4">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator pomoćnog objekta.</comment>
+<commentInRDBMS>Identifikator pomoćnog objekta.</commentInRDBMS>
+<generatorID>8B653148-822F-6B8F-8716-8E86155AE643</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86335823-FE82-54AA-189E-8D87B6CD2A4E" referredColumn="932D9858-CE25-7F96-1F15-598682AE890A"/>
+</associations>
+</Column>
+<Column name="POM_OBJ_TIP_ID" id="3E977801-368E-8A9A-F111-A0CCE63604F9">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<commentInRDBMS>Identifikator tipa pomocnog objekta.</commentInRDBMS>
+<generatorID>51DBDCF5-0172-5FE4-5BB6-381B6426F262</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86335823-FE82-54AA-189E-8D87B6CD2A4E" referredColumn="FAFFA772-13C0-22C3-3511-17142FBE53F2"/>
+</associations>
+</Column>
+<Column name="PROD_ID" id="CACBCF8A-E0D8-2BFD-6EBB-9B8A17974FC4">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<commentInRDBMS>Identifikator prodavca.</commentInRDBMS>
+<generatorID>198C1711-EC73-66B4-688D-4BDDEA848017</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7943AC7C-17BE-EB2A-4577-4397A61324ED" referredColumn="3CB9BC7D-BA41-5F1A-E7FE-0FE5F2CECB5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE15C0EA-0C3F-7241-1B2E-3CE0FE0017BD" name="Slika_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>AFBB807D-50CD-4EFF-55C4-5B4C5D13A533</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E163E96A-DA6C-9B12-D6FF-C13EF9603851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E706BDE5-523F-F916-B147-954CE415ABBD" name="Slika_SLIKA_NAZ_UN">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>25D20166-8DF8-9E73-88B9-45A4E23A68A3</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F0C64A1-1743-B3CC-C6B4-012C5DE89092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38345878-0F69-C806-C070-D6F7DAB92FFA" name="Slika_Nepokretnost_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>188FD50F-139E-41FA-AC4C-B0B586F11E2D</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8937C670-C162-C347-A686-C8B3ACAC1734"/>
+<colUsage columnID="1FF14F3D-6529-2B7C-029C-31B661F51B81"/>
+<colUsage columnID="CACBCF8A-E0D8-2BFD-6EBB-9B8A17974FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCDB2E0D-CE74-44B4-6AD0-69290613D33D" name="Slika_Pom_obj_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>B53E609B-793C-CA61-D89D-9B64C667892C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F1B903-B065-3A27-F1C3-035CC536E2E4"/>
+<colUsage columnID="3E977801-368E-8A9A-F111-A0CCE63604F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

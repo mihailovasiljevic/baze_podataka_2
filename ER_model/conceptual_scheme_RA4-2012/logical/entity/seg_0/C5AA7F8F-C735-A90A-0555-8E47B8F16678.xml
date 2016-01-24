@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5AA7F8F-C735-A90A-0555-8E47B8F16678" name="Pomoćni objekat">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5AA7F8F-C735-A90A-0555-8E47B8F16678" name="Pomocni objekat">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:49:43 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,6 +23,7 @@
 <commentInRDBMS>Identifikator pomoćnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <commentInRDBMS>Naziv tipa pomoćnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -51,6 +54,7 @@
 <commentInRDBMS>Povšrina pomoćnog objekta.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -68,6 +72,7 @@
 <generatorID>9E702986-D629-AFCE-9729-8C7754D06854</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>01C20A38-6B6A-023E-C1F5-4DEB7C587970</referedAttribute>
@@ -75,7 +80,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_ID" id="182D649A-1B88-6D0A-9C69-866492EDFBB4">
 <createdBy>mix</createdBy>
@@ -85,6 +90,7 @@
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>2E26DF66-3EA4-B90D-17DA-BED0AC510ED1</referedAttribute>
@@ -101,6 +107,7 @@
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>715C4E91-C701-D9B7-3B85-7FE8DB31C031</referedAttribute>
@@ -108,7 +115,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID" id="61A84C74-412D-F925-97E3-7DC40880429C">
 <createdBy>Misa</createdBy>
@@ -118,6 +125,7 @@
 <generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C94F7A90-4A3F-8A61-2372-A0D42AFB4898</referedAttribute>
@@ -132,8 +140,8 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:50:00 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>

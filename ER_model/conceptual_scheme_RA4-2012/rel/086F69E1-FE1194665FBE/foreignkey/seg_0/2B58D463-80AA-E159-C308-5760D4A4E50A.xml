@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B58D463-80AA-E159-C308-5760D4A4E50A" containerWithKeyObject="69AC1546-132C-3436-C1B0-D3A973DF8739" localFKIndex="2224C3F6-8911-4BF4-D6D9-4F11CCEDC666" name="Ulica_Grad_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>DA2A84A7-E07B-0365-8EF1-CB9EFA9F5B47</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>657EE1D8-0D64-676C-B15A-B4E12FC54D70</referredTableID>
+<keyObject>332CADC4-B340-BA27-2375-848E7DDFF354</keyObject>
+<referredKeyID>332CADC4-B340-BA27-2375-848E7DDFF354</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

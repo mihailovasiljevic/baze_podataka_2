@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="065BABC7-56D2-0535-605B-07977676DEC2" name="Pomocni_objekat">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>C5AA7F8F-C735-A90A-0555-8E47B8F16678</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POM_OBJ_ID" id="932D9858-CE25-7F96-1F15-598682AE890A">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator pomoćnog objekta.</comment>
+<commentInRDBMS>Identifikator pomoćnog objekta.</commentInRDBMS>
+<generatorID>732F2845-348E-6DEE-A0B7-8B8CDD6CB705</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POM_OBJ_NAZ" id="D5651C4B-306D-2BC1-A316-1372F7072219">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Naziv tipa pomoćnog objekta.</comment>
+<commentInRDBMS>Naziv tipa pomoćnog objekta.</commentInRDBMS>
+<generatorID>E3CC0E04-3910-B62D-63FC-A5DD26B33DE6</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POM_OBJ_POV" id="BE167FF0-D1D9-DC46-F57D-4C98EA1CFE51">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Povšrina pomoćnog objekta.</comment>
+<commentInRDBMS>Povšrina pomoćnog objekta.</commentInRDBMS>
+<generatorID>9C9123FC-4529-57AE-BE95-D23461B6B6BF</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POM_OBJ_TIP_ID" id="FAFFA772-13C0-22C3-3511-17142FBE53F2">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<commentInRDBMS>Identifikator tipa pomocnog objekta.</commentInRDBMS>
+<generatorID>85D81B79-73E1-9905-6FE1-ABDC85DE0AC2</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29B6A6CA-ECDC-ADDA-49FF-994696E86F2C" referredColumn="F53C1BB5-6043-17EB-85BF-ECC8329D29B7"/>
+</associations>
+</Column>
+<Column name="NEK_ID" id="19981EF3-6AD0-8206-BCC3-C191D4C502FA">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator nepokretnosti.</comment>
+<commentInRDBMS>Identifikator nepokretnosti.</commentInRDBMS>
+<generatorID>182D649A-1B88-6D0A-9C69-866492EDFBB4</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC3CBF9F-A502-206A-C130-8A8B6F7076DA" referredColumn="DEED91F2-09D1-9D64-EE6F-18A25551843D"/>
+</associations>
+</Column>
+<Column name="NEK_TIP_ID" id="F0996E3B-B2F5-201F-7D71-5A4F7AFDA5BA">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator tipa nepokretnosti.</comment>
+<commentInRDBMS>Identifikator tipa nepokretnosti.</commentInRDBMS>
+<generatorID>E57B63A6-8B9C-DB30-F5AC-477B38E2F9CF</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC3CBF9F-A502-206A-C130-8A8B6F7076DA" referredColumn="79CAE1A7-42E3-C1C5-33B2-0E1046258816"/>
+</associations>
+</Column>
+<Column name="PROD_ID" id="1B5D25E1-DF06-3775-CCD7-FC342988EAAA">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator prodavca.</comment>
+<commentInRDBMS>Identifikator prodavca.</commentInRDBMS>
+<generatorID>61A84C74-412D-F925-97E3-7DC40880429C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC3CBF9F-A502-206A-C130-8A8B6F7076DA" referredColumn="3CB9BC7D-BA41-5F1A-E7FE-0FE5F2CECB5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04756A3A-14C5-C2F1-A796-3CA5784F0EDA" name="Pomoćni_objekat_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>084EC1BC-3F73-8A35-5798-F5FC1906B269</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932D9858-CE25-7F96-1F15-598682AE890A"/>
+<colUsage columnID="FAFFA772-13C0-22C3-3511-17142FBE53F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9890D4CC-B8E4-8838-6B9D-D172D9BACC6B" name="Pom_obj_Nepo_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>F05F411B-48E3-FEAB-444E-013927C884D3</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19981EF3-6AD0-8206-BCC3-C191D4C502FA"/>
+<colUsage columnID="F0996E3B-B2F5-201F-7D71-5A4F7AFDA5BA"/>
+<colUsage columnID="1B5D25E1-DF06-3775-CCD7-FC342988EAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9662DCF-F9F8-E6AB-CACF-1007A5E400BD" name="Pom_obj_Tip_pom_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>9E702986-D629-AFCE-9729-8C7754D06854</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAFFA772-13C0-22C3-3511-17142FBE53F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

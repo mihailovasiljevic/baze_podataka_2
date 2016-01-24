@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5AE104A-AF18-391B-19DD-4DD1E076A8B2" name="Kupac">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>3F60BB87-70BE-A06F-ADC1-9CD588BD1493</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KUP_ID" id="3E7F694C-A316-DA2F-3136-DFD82FF81E21">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator kupca.</comment>
+<commentInRDBMS>Identifikator kupca.</commentInRDBMS>
+<generatorID>CB7DB137-31AB-8FB4-5BB1-012D3DA09ACC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_IME" id="8AEEBD83-9451-B43F-414F-22899BD52D24">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Ime kupca.</comment>
+<commentInRDBMS>Ime kupca.</commentInRDBMS>
+<generatorID>1BBD1CB2-4D9B-0AF0-0C96-477C612A4976</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_PREZ" id="3B8B027A-2427-0353-CA65-9F10606451BC">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Prezime kupca.</comment>
+<commentInRDBMS>Prezime kupca.</commentInRDBMS>
+<generatorID>AF5136F9-BE1B-F21D-BB2F-C216A1249243</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_BRLK" id="24DC5FD7-57B0-7555-84B5-5224E451EE90">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Broj lince karte  kupca.</comment>
+<commentInRDBMS>Broj lince karte  kupca.</commentInRDBMS>
+<generatorID>8ABACBD4-13C3-0026-E2FA-3CA63DF2EEDD</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_TEL" id="49907097-F447-073A-682F-20EA6F31F4FB">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Telefon  kupca.</comment>
+<commentInRDBMS>Telefon  kupca.</commentInRDBMS>
+<generatorID>CB2B91C9-4D3C-195E-1193-9D89AF4BAC09</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_EMAIL" id="B1DD6FD5-35B0-A76D-4124-782DAA30D1A7">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Email kupca.</comment>
+<commentInRDBMS>Email kupca.</commentInRDBMS>
+<generatorID>A7E3E48A-C540-2076-AA2A-388B136E2FFC</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRS_ID" id="5925FF1C-9479-0EF1-A6C5-44F31E3A92D0">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Adresa kupca.</comment>
+<commentInRDBMS>Adresa kupca.</commentInRDBMS>
+<generatorID>7BDDE285-C063-F517-0ADF-2501B8A0A27C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBF6E7E8-810A-AD6B-3DC3-C7B97C8FD0F3" referredColumn="442C543B-398A-7003-4182-F0399979DD06"/>
+</associations>
+</Column>
+<Column name="ULICA_ID" id="CE41DDC2-62CF-5316-04AA-1F1F4EDD4CB0">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<commentInRDBMS>Identifikator ulice.</commentInRDBMS>
+<generatorID>3416394F-832E-CC64-705B-8CB3608BDA03</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBF6E7E8-810A-AD6B-3DC3-C7B97C8FD0F3" referredColumn="C334E088-6DB0-5AF5-E43C-25300AE5AB38"/>
+</associations>
+</Column>
+<Column name="LOK_ID" id="5667DF1B-793D-B1E2-8A73-460BE7380A63">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<commentInRDBMS>Identifikator grada.</commentInRDBMS>
+<generatorID>1698A53A-9A5B-E6B4-F2C8-E1F67826EA7D</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBF6E7E8-810A-AD6B-3DC3-C7B97C8FD0F3" referredColumn="573FB63C-85B9-0DF0-201D-941A4057D93A"/>
+</associations>
+</Column>
+<Column name="DRZ_ID" id="B7C39CC3-A48F-C330-CC65-5B969B2D7BB6">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
+<generatorID>BB5D53C5-9EBC-CFC1-7D49-25B89CF3E931</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBF6E7E8-810A-AD6B-3DC3-C7B97C8FD0F3" referredColumn="81E0B9C5-B35C-01E5-DE87-12EF5925AFBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC77BA35-10CE-1CE3-D2E3-423B70446DD5" name="Kupac_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>D2C92BE3-0F53-2F60-DB90-A80BBC910B17</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E7F694C-A316-DA2F-3136-DFD82FF81E21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9675CE14-3264-E372-E491-2F560E619FB7" name="Kupac_Adresa_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>60B06649-02ED-D5AE-CC07-417363F0509C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5925FF1C-9479-0EF1-A6C5-44F31E3A92D0"/>
+<colUsage columnID="CE41DDC2-62CF-5316-04AA-1F1F4EDD4CB0"/>
+<colUsage columnID="5667DF1B-793D-B1E2-8A73-460BE7380A63"/>
+<colUsage columnID="B7C39CC3-A48F-C330-CC65-5B969B2D7BB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

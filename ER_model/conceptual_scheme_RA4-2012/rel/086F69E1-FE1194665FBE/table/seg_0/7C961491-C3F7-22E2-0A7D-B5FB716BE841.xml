@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C961491-C3F7-22E2-0A7D-B5FB716BE841" name="Ishod_posredovanja">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Da li je nekretnina prodata, ili je ugovor otkazan itd.</comment>
+<generatorID>6A899C76-39E0-7BA1-7B26-7BCFDE440853</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISHOD_ID" id="2E1C3CBC-FF70-14F7-A64D-1832CCECFD9F">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator ishoda u posredovanju.</comment>
+<commentInRDBMS>Identifikator ishoda u posredovanju.</commentInRDBMS>
+<generatorID>C9A10AEF-3CEE-293D-CF1A-28E4C2D909F5</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISHOD_NAZ" id="5676C68D-5EE6-DC87-E4D0-6724A3D097E7">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Naziv ishoda u posredovanju.(Prodato, Kupljeno, Iznajmljeno, itd.)</comment>
+<commentInRDBMS>Naziv ishoda u posredovanju.(Prodato, Kupljeno, Iznajmljeno, itd.)</commentInRDBMS>
+<generatorID>99D44CF2-2CFB-0B21-ED11-F4019DFA1C3E</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3F69C81-E65B-F853-5B41-50FBB29C404C" name="Ishod_posredovanja_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>D9015496-3E6A-7109-30F4-13AA4C740324</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E1C3CBC-FF70-14F7-A64D-1832CCECFD9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

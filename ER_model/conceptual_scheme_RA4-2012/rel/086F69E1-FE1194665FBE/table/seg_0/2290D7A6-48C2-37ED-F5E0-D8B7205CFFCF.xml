@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2290D7A6-48C2-37ED-F5E0-D8B7205CFFCF" name="Prikljucak_nepokretnosti">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRIK_ID" id="80E42836-5F38-EEC2-B033-56C69E23ED03">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DCC2316-7DD2-686C-5927-652A9D9D958E" referredColumn="35F0AF76-2564-E8E4-F11C-F0C0E8F570DE"/>
+</associations>
+</Column>
+<Column name="NEK_ID" id="5741575F-8E23-129E-9746-58B5764A0989">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EFC0210-4B6E-D9DE-81F9-837F6E2086ED" referredColumn="DEED91F2-09D1-9D64-EE6F-18A25551843D"/>
+</associations>
+</Column>
+<Column name="NEK_TIP_ID" id="31E8ED20-47CC-F200-D802-90DE6F4E764E">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EFC0210-4B6E-D9DE-81F9-837F6E2086ED" referredColumn="79CAE1A7-42E3-C1C5-33B2-0E1046258816"/>
+</associations>
+</Column>
+<Column name="PROD_ID" id="F1D2ED95-E444-5246-F4D7-AE284069A68E">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EFC0210-4B6E-D9DE-81F9-837F6E2086ED" referredColumn="3CB9BC7D-BA41-5F1A-E7FE-0FE5F2CECB5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="565B8741-7C51-C762-F047-BA0E626757C1" name="Priključak_nepokretnosti_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E42836-5F38-EEC2-B033-56C69E23ED03"/>
+<colUsage columnID="5741575F-8E23-129E-9746-58B5764A0989"/>
+<colUsage columnID="31E8ED20-47CC-F200-D802-90DE6F4E764E"/>
+<colUsage columnID="F1D2ED95-E444-5246-F4D7-AE284069A68E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F015E816-09BD-FBE0-E8AC-0B269A1CAEFE" name="Prik_Prik_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>D84BA6EB-B9F5-6B79-29A5-EA6ACF7A8D86</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E42836-5F38-EEC2-B033-56C69E23ED03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CFEE8A7-5E47-9E35-9E20-F0A5323389C0" name="Prik_Nepo_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>D84BA6EB-B9F5-6B79-29A5-EA6ACF7A8D86</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5741575F-8E23-129E-9746-58B5764A0989"/>
+<colUsage columnID="31E8ED20-47CC-F200-D802-90DE6F4E764E"/>
+<colUsage columnID="F1D2ED95-E444-5246-F4D7-AE284069A68E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

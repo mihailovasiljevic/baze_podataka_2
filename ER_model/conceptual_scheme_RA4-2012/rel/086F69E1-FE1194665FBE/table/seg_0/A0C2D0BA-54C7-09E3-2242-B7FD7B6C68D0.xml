@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0C2D0BA-54C7-09E3-2242-B7FD7B6C68D0" name="Strucni_ispit">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>68DCC203-EBAE-5EBD-8862-ABE4B77D83DF</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STR_ISP_OZN" id="10DC99B7-379C-FBC0-13EB-6B86DE5E8095">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Oznaka pod kojom je izdat sertifikat o položenom stručnom ispitu.</comment>
+<commentInRDBMS>Oznaka pod kojom je izdat sertifikat o položenom stručnom ispitu.</commentInRDBMS>
+<generatorID>7A5BDBC9-0923-D941-BEBD-8E94D3224822</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STR_ISP_DAT_POL" id="9374CB62-EDEF-7653-9F8A-07F8263AE5B7">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Datum kada je stručni ispit položen.</comment>
+<commentInRDBMS>Datum kada je stručni ispit položen.</commentInRDBMS>
+<generatorID>05DD8EEB-06EB-93D8-A78A-BAECB51CC74B</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STR_ISP_DAT_PREST" id="27FD953B-EF4C-8C66-22A4-5EACD28ECBC5">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Datum isticanja važenja položenog stručnog ispita.</comment>
+<commentInRDBMS>Datum isticanja važenja položenog stručnog ispita.</commentInRDBMS>
+<generatorID>52A2994E-7037-4D57-9662-251D1E932894</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="353D3FD8-EBAD-18A6-70F6-392C7A2B8BCE" name="Strucni_ispit_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>57E32D56-1491-4493-993C-70553B6EFEFD</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10DC99B7-379C-FBC0-13EB-6B86DE5E8095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

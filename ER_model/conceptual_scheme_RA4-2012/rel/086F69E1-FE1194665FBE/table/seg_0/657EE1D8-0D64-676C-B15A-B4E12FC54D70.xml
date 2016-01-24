@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="657EE1D8-0D64-676C-B15A-B4E12FC54D70" name="Grad">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>9A4B147F-8A2B-A8BC-E062-17BE23865468</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOK_ID" id="155B5536-6DF0-46D0-49C0-7DF7C447F54F">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<commentInRDBMS>Identifikator grada.</commentInRDBMS>
+<generatorID>9B9AD292-8F64-5174-3017-7280805833F7</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOK_NAZ" id="F4A9379D-B713-B12B-9006-31C982FD4E2F">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Naziv grada.</comment>
+<commentInRDBMS>Naziv grada.</commentInRDBMS>
+<generatorID>593537D4-92B7-1975-0D04-D177CF6C14AF</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRZ_ID" id="6C25727B-9E96-7708-A0D5-5162E5DD9599">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
+<generatorID>702D6C02-6191-D884-4796-507820F93B57</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D6D3667-E9DA-C8C5-A04D-C2E6C3C1FC6B" referredColumn="9643959B-CC7C-EE57-A2A4-40A8A08B98CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="332CADC4-B340-BA27-2375-848E7DDFF354" name="Grad_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>8E779822-1779-4FAB-30FB-262807C5D7F3</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="155B5536-6DF0-46D0-49C0-7DF7C447F54F"/>
+<colUsage columnID="6C25727B-9E96-7708-A0D5-5162E5DD9599"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8346DCF9-D1D2-1817-836D-B77D47FE892B" name="Grad_LOK_NAZ_UN">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>16D58B80-B8B4-89AB-00DD-6324B36BC98E</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4A9379D-B713-B12B-9006-31C982FD4E2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E719DAA9-0D94-D941-D92A-0ED83FAD207D" name="Grad_Drzava_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>B232AEFB-A855-3ED6-B00A-1F5145CE6364</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C25727B-9E96-7708-A0D5-5162E5DD9599"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

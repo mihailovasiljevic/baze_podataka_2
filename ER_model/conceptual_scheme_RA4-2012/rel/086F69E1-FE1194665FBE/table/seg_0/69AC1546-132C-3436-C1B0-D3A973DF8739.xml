@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69AC1546-132C-3436-C1B0-D3A973DF8739" name="Ulica">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>1CE80584-6A26-B187-F671-F83A720FA5F8</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ULICA_ID" id="D7EBEFD1-27B8-A240-C5A3-34A37BFDD6F4">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator ulice.</comment>
+<commentInRDBMS>Identifikator ulice.</commentInRDBMS>
+<generatorID>01989D4D-DF3F-9651-886A-E294CE6C637E</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA_NAZ" id="7A40083D-EB5D-FF78-24AC-B63183DCDDE4">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Naziv ulice.</comment>
+<commentInRDBMS>Naziv ulice.</commentInRDBMS>
+<generatorID>875E39BF-E978-4D29-7ABB-35A6B076D7F8</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOK_ID" id="94021CB6-49EB-98A4-D213-4F0653790A47">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>Identifikator grada.</comment>
+<commentInRDBMS>Identifikator grada.</commentInRDBMS>
+<generatorID>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B58D463-80AA-E159-C308-5760D4A4E50A" referredColumn="155B5536-6DF0-46D0-49C0-7DF7C447F54F"/>
+</associations>
+</Column>
+<Column name="DRZ_ID" id="76CA27F8-B7E6-0651-72B2-50026DEB7EB3">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<comment>ISO kod države.</comment>
+<commentInRDBMS>ISO kod države.</commentInRDBMS>
+<generatorID>C5562177-B971-FF2A-99AB-52ED61744A6A</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B58D463-80AA-E159-C308-5760D4A4E50A" referredColumn="6C25727B-9E96-7708-A0D5-5162E5DD9599"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B37487F-BC97-45C3-4B6F-33A1D1EADF55" name="Ulica_PK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>CAD4A5A6-03ED-3C85-2A82-C4DF633D1E6A</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7EBEFD1-27B8-A240-C5A3-34A37BFDD6F4"/>
+<colUsage columnID="94021CB6-49EB-98A4-D213-4F0653790A47"/>
+<colUsage columnID="76CA27F8-B7E6-0651-72B2-50026DEB7EB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2224C3F6-8911-4BF4-D6D9-4F11CCEDC666" name="Ulica_Grad_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>DA2A84A7-E07B-0365-8EF1-CB9EFA9F5B47</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94021CB6-49EB-98A4-D213-4F0653790A47"/>
+<colUsage columnID="76CA27F8-B7E6-0651-72B2-50026DEB7EB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

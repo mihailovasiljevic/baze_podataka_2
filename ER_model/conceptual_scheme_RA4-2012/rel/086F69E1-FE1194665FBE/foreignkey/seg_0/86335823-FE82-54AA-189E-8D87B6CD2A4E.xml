@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86335823-FE82-54AA-189E-8D87B6CD2A4E" containerWithKeyObject="3AE0CA31-8DAB-5D0E-AE6B-2F6D3773ACC3" localFKIndex="DCDB2E0D-CE74-44B4-6AD0-69290613D33D" name="Slika_Pom_obj_FK">
+<createdBy>Misa</createdBy>
+<createdTime>2016-01-24 22:06:56 UTC</createdTime>
+<generatorID>B53E609B-793C-CA61-D89D-9B64C667892C</generatorID>
+<ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>065BABC7-56D2-0535-605B-07977676DEC2</referredTableID>
+<keyObject>04756A3A-14C5-C2F1-A796-3CA5784F0EDA</keyObject>
+<referredKeyID>04756A3A-14C5-C2F1-A796-3CA5784F0EDA</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
