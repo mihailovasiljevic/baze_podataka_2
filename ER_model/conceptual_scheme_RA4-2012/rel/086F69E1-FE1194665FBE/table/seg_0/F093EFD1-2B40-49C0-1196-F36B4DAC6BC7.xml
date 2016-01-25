@@ -196,6 +196,7 @@
 <commentInRDBMS>Identifikator kupca.</commentInRDBMS>
 <generatorID>A39D110B-7B97-EAAF-852F-53507D1E79B5</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
