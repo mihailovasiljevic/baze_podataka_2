@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ulica nepokretnosti." directorySegmentName="seg_0" id="941D6784-E717-12B9-E9B8-2F35FFB48088">
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 18:10:56 UTC</createdTime>
+<commentInRDBMS>Na jednoj adresi se može naci vise nepokretnosti: tipa PARK CITY: stanovi, lokali.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
-<item key="A476FF04-54F4-A57C-03BB-E80F224DBCD2" value="true"/>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
+<item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <sourcePk>A05469B5-50C6-24F9-5686-EE1D28B2E724</sourcePk>
 <targetPk>D1753C06-6454-1CBB-21C3-4C9FC3A6B9F5</targetPk>

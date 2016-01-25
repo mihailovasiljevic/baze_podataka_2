@@ -4,6 +4,7 @@
 <createdTime>2016-01-14 17:35:51 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,6 +23,7 @@
 <commentInRDBMS>Identifikator nepokretnosti.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <commentInRDBMS>Površina nepokretnosti.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -53,6 +56,7 @@
 <commentInRDBMS>Da li je nekretnina useljiva?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,6 +73,7 @@
 <commentInRDBMS>Da li je nekretnina u izgradnji?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,6 +90,7 @@
 <commentInRDBMS>Broj soba.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -100,6 +106,7 @@
 <commentInRDBMS>Broj spratova.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -115,6 +122,7 @@
 <commentInRDBMS>Da li je dupleks?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -132,6 +140,7 @@
 <commentInRDBMS>Da li ima lift?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -149,6 +158,7 @@
 <commentInRDBMS>Da li je stara ili nova gradnja?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -166,6 +176,7 @@
 <commentInRDBMS>Da li je legalna?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -182,6 +193,7 @@
 <commentInRDBMS>Da li su podaci o nepokretnosti tajni?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -198,6 +210,7 @@
 <commentInRDBMS>Da li je nekretnina prodata?</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -214,6 +227,7 @@
 <commentInRDBMS>Dodatni opis nekretnine.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -231,6 +245,7 @@
 <generatorID>27EC9B6A-1271-98D9-0579-A358454E6592</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>F406F1A6-A683-5D02-94FA-0DF2A4901244</referedAttribute>
@@ -238,7 +253,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_ID" id="C94F7A90-4A3F-8A61-2372-A0D42AFB4898">
 <createdBy>authorit0</createdBy>
@@ -248,6 +263,7 @@
 <generatorID>C828A9F9-46E2-C194-C3AF-6ED88AB5DD82</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>0A87A8AE-3862-6F59-350B-7923BEF4FB71</referedAttribute>
@@ -264,6 +280,7 @@
 <generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>12444A2C-BE61-8363-166F-78B80D701241</referedAttribute>
@@ -280,6 +297,7 @@
 <generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>D7AD5A32-0D12-5A13-2C4B-2216E168008C</referedAttribute>
@@ -287,7 +305,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LOK_ID" id="CC97B2A8-93A0-EB00-1F51-D9F99AA5AF9B">
 <createdBy>Misa</createdBy>
@@ -297,6 +315,7 @@
 <generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>F584B9F7-B09E-5D06-C2F7-3D93B209DADE</referedAttribute>
@@ -304,7 +323,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DRZ_ID" id="95E59743-6958-1576-267E-1591A4CD3723">
 <createdBy>Misa</createdBy>
@@ -314,6 +333,7 @@
 <generatorID>941D6784-E717-12B9-E9B8-2F35FFB48088</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7</referedAttribute>
@@ -321,7 +341,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NEK_DAT_OD" id="A28818D2-C383-4640-A5FC-E897A0E90458">
 <createdBy>Misa</createdBy>
@@ -329,6 +349,7 @@
 <commentInRDBMS>Datum od kog se nekretnina prodaje.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -342,6 +363,7 @@
 <commentInRDBMS>Datum do kog je nekretnina prodavana.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -358,6 +380,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>

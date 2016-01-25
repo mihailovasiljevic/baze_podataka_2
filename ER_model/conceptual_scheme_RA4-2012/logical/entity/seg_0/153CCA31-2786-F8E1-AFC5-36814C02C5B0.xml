@@ -4,6 +4,7 @@
 <createdTime>2016-01-23 23:26:17 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,6 +23,7 @@
 <commentInRDBMS>Identifikator adrese.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <commentInRDBMS>Broj u ulici.</commentInRDBMS>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,6 +55,7 @@
 <generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>01989D4D-DF3F-9651-886A-E294CE6C637E</referedAttribute>
@@ -59,7 +63,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LOK_ID" id="F584B9F7-B09E-5D06-C2F7-3D93B209DADE">
 <createdBy>mix</createdBy>
@@ -69,6 +73,7 @@
 <generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>AFB9C6C6-BC14-5EBF-E97C-505BB5CC48B2</referedAttribute>
@@ -76,7 +81,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DRZ_ID" id="46703A7E-DA27-FBA4-1C9F-4DE96D9D19A7">
 <createdBy>mix</createdBy>
@@ -86,6 +91,7 @@
 <generatorID>75B56E99-4295-DBD0-8FB3-18BB8F2E59F7</generatorID>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="true"/>
 </engineerTo>
 <referedAttribute>C5562177-B971-FF2A-99AB-52ED61744A6A</referedAttribute>
@@ -93,7 +99,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -103,6 +109,7 @@
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
 </engineerTo>
 <pk>true</pk>

@@ -140,6 +140,7 @@
 <createdBy>authorit0</createdBy>
 <createdTime>2016-01-14 17:50:00 UTC</createdTime>
 <ownerDesignName>conceptual_scheme_RA4-2012</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="086F69E1-182E-F916-D096-FE1194665FBE" value="true"/>
 <item key="0A38F34A-F019-287D-38DF-09F08B31B9A6" value="false"/>
