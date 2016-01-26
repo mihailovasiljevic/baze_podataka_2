@@ -1,2 +1,2 @@
-# baze_podataka_2
-Projekat za predmet baze podataka 2. Projektovanje baze podataka za jedan segment poslovanja agencije za nekretnine.
+# Podsistem za sklapanje ugovora o posredovanju agencije za nekretnine
+Projekat za predmet baze podataka 2. ER i relacioni model podsistema za upravljanje ugovorima agencije za nekretnine. Posto je projekat u edukativne svrhe pojedini entiteti su pojednostavljeni. Modeli su pravljeni u  ORACLE DATA MODELER-u, a .ddl skripta je generisana za ORACLE EXPRESS 11g. U folderu scripts se nalaze i skripte za ubacivanje dummy podataka kao i skript za kreiranje nekoliko pogleda.
